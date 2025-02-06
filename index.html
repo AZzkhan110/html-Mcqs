@@ -7,11 +7,14 @@
 </head>
 <body>
     <style>
+        *{
+            margin: 0;padding: 0;box-sizing: border-box;
+        }
     body {
         font-family: Arial, sans-serif;
         background-color: #f4f4f4; /* Light grey background */
         color: #333; /* Dark grey text */
-        padding: 40px;
+        /* padding: 40px; */
         margin: 0;
         display: flex;
         justify-content: center;
@@ -19,7 +22,9 @@
         flex-direction: column;
         min-height: 100vh;
     }
-
+    main{
+        padding: 50px;
+    }
     h1 {
         color: #4CAF50; /* Green color */
         text-align: center;
@@ -85,1320 +90,1327 @@
     }
 </style>
 
+    <main>
+        <h1>100 HTML MCQs</h1>
+        <form id="quiz-form">
+            <!-- Question 1 -->
+            <div class="question">
+                <p>1. What does HTML stand for?</p>
+                <div class="options">
+                    <input type="radio" name="q1" value="A"> A. Hyper Text Markup Language<br>
+                    <input type="radio" name="q1" value="B"> B. Home Tool Markup Language<br>
+                    <input type="radio" name="q1" value="C"> C. Hyperlinks and Text Markup Language<br>
+                    <input type="radio" name="q1" value="D"> D. None of the above<br>
+                </div>
+            </div>
     
+            <!-- Question 2 -->
+            <div class="question">
+                <p>2. Which tag is used for creating a hyperlink in HTML?</p>
+                <div class="options">
+                    <input type="radio" name="q2" value="A"> A. &lt;a&gt;<br>
+                    <input type="radio" name="q2" value="B"> B. &lt;link&gt;<br>
+                    <input type="radio" name="q2" value="C"> C. &lt;href&gt;<br>
+                    <input type="radio" name="q2" value="D"> D. &lt;hyperlink&gt;<br>
+                </div>
+            </div>
     
-    <h1>100 HTML MCQs</h1>
-    <form id="quiz-form">
-        <!-- Question 1 -->
-        <div class="question">
-            <p>1. What does HTML stand for?</p>
-            <div class="options">
-                <input type="radio" name="q1" value="A"> A. Hyper Text Markup Language<br>
-                <input type="radio" name="q1" value="B"> B. Home Tool Markup Language<br>
-                <input type="radio" name="q1" value="C"> C. Hyperlinks and Text Markup Language<br>
-                <input type="radio" name="q1" value="D"> D. None of the above<br>
+            <!-- Question 3 -->
+            <div class="question">
+                <p>3. What does the <code>&lt;title&gt;</code> tag define?</p>
+                <div class="options">
+                    <input type="radio" name="q3" value="A"> A. The body content of the webpage<br>
+                    <input type="radio" name="q3" value="B"> B. The footer content of the webpage<br>
+                    <input type="radio" name="q3" value="C"> C. The heading of the webpage<br>
+                    <input type="radio" name="q3" value="D"> D. The title of the webpage in the browser's title bar<br>
+                </div>
             </div>
-        </div>
-
-        <!-- Question 2 -->
-        <div class="question">
-            <p>2. Which tag is used for creating a hyperlink in HTML?</p>
-            <div class="options">
-                <input type="radio" name="q2" value="A"> A. &lt;a&gt;<br>
-                <input type="radio" name="q2" value="B"> B. &lt;link&gt;<br>
-                <input type="radio" name="q2" value="C"> C. &lt;href&gt;<br>
-                <input type="radio" name="q2" value="D"> D. &lt;hyperlink&gt;<br>
+    
+            <!-- Question 4 -->
+            <div class="question">
+                <p>4. Which of the following is a correct HTML comment?</p>
+                <div class="options">
+                    <input type="radio" name="q4" value="A"> A. &lt;-- This is a comment --&gt;<br>
+                    <input type="radio" name="q4" value="B"> B. &lt;! This is a comment !&gt;<br>
+                    <input type="radio" name="q4" value="C"> C. &lt;!-- This is a comment --&gt;<br>
+                    <input type="radio" name="q4" value="D"> D. // This is a comment<br>
+                </div>
             </div>
-        </div>
-
-        <!-- Question 3 -->
-        <div class="question">
-            <p>3. What does the <code>&lt;title&gt;</code> tag define?</p>
-            <div class="options">
-                <input type="radio" name="q3" value="A"> A. The body content of the webpage<br>
-                <input type="radio" name="q3" value="B"> B. The footer content of the webpage<br>
-                <input type="radio" name="q3" value="C"> C. The heading of the webpage<br>
-                <input type="radio" name="q3" value="D"> D. The title of the webpage in the browser's title bar<br>
+    
+            <!-- Question 5 -->
+            <div class="question">
+                <p>5. Which tag is used to display an image in HTML?</p>
+                <div class="options">
+                    <input type="radio" name="q5" value="A"> A. &lt;image&gt;<br>
+                    <input type="radio" name="q5" value="B"> B. &lt;img&gt;<br>
+                    <input type="radio" name="q5" value="C"> C. &lt;pic&gt;<br>
+                    <input type="radio" name="q5" value="D"> D. &lt;picture&gt;<br>
+                </div>
             </div>
-        </div>
-
-        <!-- Question 4 -->
-        <div class="question">
-            <p>4. Which of the following is a correct HTML comment?</p>
-            <div class="options">
-                <input type="radio" name="q4" value="A"> A. &lt;-- This is a comment --&gt;<br>
-                <input type="radio" name="q4" value="B"> B. &lt;! This is a comment !&gt;<br>
-                <input type="radio" name="q4" value="C"> C. &lt;!-- This is a comment --&gt;<br>
-                <input type="radio" name="q4" value="D"> D. // This is a comment<br>
+    
+            <!-- Question 6 -->
+            <div class="question">
+                <p>6. Which HTML element is used to define a paragraph?</p>
+                <div class="options">
+                    <input type="radio" name="q6" value="A"> A. &lt;p&gt;<br>
+                    <input type="radio" name="q6" value="B"> B. &lt;paragraph&gt;<br>
+                    <input type="radio" name="q6" value="C"> C. &lt;para&gt;<br>
+                    <input type="radio" name="q6" value="D"> D. &lt;text&gt;<br>
+                </div>
             </div>
-        </div>
-
-        <!-- Question 5 -->
-        <div class="question">
-            <p>5. Which tag is used to display an image in HTML?</p>
-            <div class="options">
-                <input type="radio" name="q5" value="A"> A. &lt;image&gt;<br>
-                <input type="radio" name="q5" value="B"> B. &lt;img&gt;<br>
-                <input type="radio" name="q5" value="C"> C. &lt;pic&gt;<br>
-                <input type="radio" name="q5" value="D"> D. &lt;picture&gt;<br>
+    
+            <!-- Question 7 -->
+            <div class="question">
+                <p>7. Which HTML element is used to define a list item?</p>
+                <div class="options">
+                    <input type="radio" name="q7" value="A"> A. &lt;li&gt;<br>
+                    <input type="radio" name="q7" value="B"> B. &lt;list&gt;<br>
+                    <input type="radio" name="q7" value="C"> C. &lt;ul&gt;<br>
+                    <input type="radio" name="q7" value="D"> D. &lt;item&gt;<br>
+                </div>
             </div>
-        </div>
-
-        <!-- Question 6 -->
-        <div class="question">
-            <p>6. Which HTML element is used to define a paragraph?</p>
-            <div class="options">
-                <input type="radio" name="q6" value="A"> A. &lt;p&gt;<br>
-                <input type="radio" name="q6" value="B"> B. &lt;paragraph&gt;<br>
-                <input type="radio" name="q6" value="C"> C. &lt;para&gt;<br>
-                <input type="radio" name="q6" value="D"> D. &lt;text&gt;<br>
+    
+            <!-- Question 8 -->
+            <div class="question">
+                <p>8. Which tag is used to define an unordered list in HTML?</p>
+                <div class="options">
+                    <input type="radio" name="q8" value="A"> A. &lt;ul&gt;<br>
+                    <input type="radio" name="q8" value="B"> B. &lt;ol&gt;<br>
+                    <input type="radio" name="q8" value="C"> C. &lt;list&gt;<br>
+                    <input type="radio" name="q8" value="D"> D. &lt;ulist&gt;<br>
+                </div>
             </div>
-        </div>
-
-        <!-- Question 7 -->
-        <div class="question">
-            <p>7. Which HTML element is used to define a list item?</p>
-            <div class="options">
-                <input type="radio" name="q7" value="A"> A. &lt;li&gt;<br>
-                <input type="radio" name="q7" value="B"> B. &lt;list&gt;<br>
-                <input type="radio" name="q7" value="C"> C. &lt;ul&gt;<br>
-                <input type="radio" name="q7" value="D"> D. &lt;item&gt;<br>
+    
+            <!-- Question 9 -->
+            <div class="question">
+                <p>9. What is the correct HTML element to define a table?</p>
+                <div class="options">
+                    <input type="radio" name="q9" value="A"> A. &lt;table&gt;<br>
+                    <input type="radio" name="q9" value="B"> B. &lt;tab&gt;<br>
+                    <input type="radio" name="q9" value="C"> C. &lt;list&gt;<br>
+                    <input type="radio" name="q9" value="D"> D. &lt;tbody&gt;<br>
+                </div>
             </div>
-        </div>
-
-        <!-- Question 8 -->
-        <div class="question">
-            <p>8. Which tag is used to define an unordered list in HTML?</p>
-            <div class="options">
-                <input type="radio" name="q8" value="A"> A. &lt;ul&gt;<br>
-                <input type="radio" name="q8" value="B"> B. &lt;ol&gt;<br>
-                <input type="radio" name="q8" value="C"> C. &lt;list&gt;<br>
-                <input type="radio" name="q8" value="D"> D. &lt;ulist&gt;<br>
+    
+            <!-- Question 10 -->
+            <div class="question">
+                <p>10. Which tag is used to create an HTML form?</p>
+                <div class="options">
+                    <input type="radio" name="q10" value="A"> A. &lt;form&gt;<br>
+                    <input type="radio" name="q10" value="B"> B. &lt;input&gt;<br>
+                    <input type="radio" name="q10" value="C"> C. &lt;submit&gt;<br>
+                    <input type="radio" name="q10" value="D"> D. &lt;button&gt;<br>
+                </div>
             </div>
-        </div>
-
-        <!-- Question 9 -->
-        <div class="question">
-            <p>9. What is the correct HTML element to define a table?</p>
-            <div class="options">
-                <input type="radio" name="q9" value="A"> A. &lt;table&gt;<br>
-                <input type="radio" name="q9" value="B"> B. &lt;tab&gt;<br>
-                <input type="radio" name="q9" value="C"> C. &lt;list&gt;<br>
-                <input type="radio" name="q9" value="D"> D. &lt;tbody&gt;<br>
+    
+            <!-- Question 11 -->
+            <div class="question">
+                <p>11. What is the default value of the <code>&lt;input&gt;</code> tag type attribute?</p>
+                <div class="options">
+                    <input type="radio" name="q11" value="A"> A. text<br>
+                    <input type="radio" name="q11" value="B"> B. password<br>
+                    <input type="radio" name="q11" value="C"> C. checkbox<br>
+                    <input type="radio" name="q11" value="D"> D. radio<br>
+                </div>
             </div>
-        </div>
-
-        <!-- Question 10 -->
-        <div class="question">
-            <p>10. Which tag is used to create an HTML form?</p>
-            <div class="options">
-                <input type="radio" name="q10" value="A"> A. &lt;form&gt;<br>
-                <input type="radio" name="q10" value="B"> B. &lt;input&gt;<br>
-                <input type="radio" name="q10" value="C"> C. &lt;submit&gt;<br>
-                <input type="radio" name="q10" value="D"> D. &lt;button&gt;<br>
+    
+            <!-- Question 12 -->
+            <div class="question">
+                <p>12. Which of the following tag is used to make text bold in HTML?</p>
+                <div class="options">
+                    <input type="radio" name="q12" value="A"> A. &lt;strong&gt;<br>
+                    <input type="radio" name="q12" value="B"> B. &lt;b&gt;<br>
+                    <input type="radio" name="q12" value="C"> C. Both A and B<br>
+                    <input type="radio" name="q12" value="D"> D. None of the above<br>
+                </div>
             </div>
-        </div>
-
-        <!-- Question 11 -->
-        <div class="question">
-            <p>11. What is the default value of the <code>&lt;input&gt;</code> tag type attribute?</p>
-            <div class="options">
-                <input type="radio" name="q11" value="A"> A. text<br>
-                <input type="radio" name="q11" value="B"> B. password<br>
-                <input type="radio" name="q11" value="C"> C. checkbox<br>
-                <input type="radio" name="q11" value="D"> D. radio<br>
+    
+            <!-- Question 13 -->
+            <div class="question">
+                <p>13. Which tag is used to display a horizontal line in HTML?</p>
+                <div class="options">
+                    <input type="radio" name="q13" value="A"> A. &lt;hr&gt;<br>
+                    <input type="radio" name="q13" value="B"> B. &lt;line&gt;<br>
+                    <input type="radio" name="q13" value="C"> C. &lt;hl&gt;<br>
+                    <input type="radio" name="q13" value="D"> D. &lt;br&gt;<br>
+                </div>
             </div>
-        </div>
-
-        <!-- Question 12 -->
-        <div class="question">
-            <p>12. Which of the following tag is used to make text bold in HTML?</p>
-            <div class="options">
-                <input type="radio" name="q12" value="A"> A. &lt;strong&gt;<br>
-                <input type="radio" name="q12" value="B"> B. &lt;b&gt;<br>
-                <input type="radio" name="q12" value="C"> C. Both A and B<br>
-                <input type="radio" name="q12" value="D"> D. None of the above<br>
+    
+            <!-- Question 14 -->
+            <div class="question">
+                <p>14. Which HTML attribute is used to define inline styles?</p>
+                <div class="options">
+                    <input type="radio" name="q14" value="A"> A. class<br>
+                    <input type="radio" name="q14" value="B"> B. style<br>
+                    <input type="radio" name="q14" value="C"> C. id<br>
+                    <input type="radio" name="q14" value="D"> D. href<br>
+                </div>
             </div>
-        </div>
-
-        <!-- Question 13 -->
-        <div class="question">
-            <p>13. Which tag is used to display a horizontal line in HTML?</p>
-            <div class="options">
-                <input type="radio" name="q13" value="A"> A. &lt;hr&gt;<br>
-                <input type="radio" name="q13" value="B"> B. &lt;line&gt;<br>
-                <input type="radio" name="q13" value="C"> C. &lt;hl&gt;<br>
-                <input type="radio" name="q13" value="D"> D. &lt;br&gt;<br>
+    
+            <!-- Question 15 -->
+            <div class="question">
+                <p>15. Which tag is used to define the header in HTML5?</p>
+                <div class="options">
+                    <input type="radio" name="q15" value="A"> A. &lt;header&gt;<br>
+                    <input type="radio" name="q15" value="B"> B. &lt;head&gt;<br>
+                    <input type="radio" name="q15" value="C"> C. &lt;h1&gt;<br>
+                    <input type="radio" name="q15" value="D"> D. &lt;section&gt;<br>
+                </div>
             </div>
+    
+                    <!-- Question 16 -->
+                    <div class="question">
+                        <p>16. What is the correct HTML element for inserting a line break?</p>
+                        <div class="options">
+                            <input type="radio" name="q16" value="A"> A. &lt;br&gt;<br>
+                            <input type="radio" name="q16" value="B"> B. &lt;break&gt;<br>
+                            <input type="radio" name="q16" value="C"> C. &lt;lb&gt;<br>
+                            <input type="radio" name="q16" value="D"> D. &lt;linebreak&gt;<br>
+                        </div>
+                    </div>
+            
+                    <!-- Question 17 -->
+                    <div class="question">
+                        <p>17. What is the purpose of the <code>&lt;head&gt;</code> tag in HTML?</p>
+                        <div class="options">
+                            <input type="radio" name="q17" value="A"> A. To display the main content of the webpage<br>
+                            <input type="radio" name="q17" value="B"> B. To include meta-information about the document<br>
+                            <input type="radio" name="q17" value="C"> C. To create the footer of the webpage<br>
+                            <input type="radio" name="q17" value="D"> D. To display navigation menus<br>
+                        </div>
+                    </div>
+            
+                    <!-- Question 18 -->
+                    <div class="question">
+                        <p>18. What is the default alignment of text in an HTML paragraph?</p>
+                        <div class="options">
+                            <input type="radio" name="q18" value="A"> A. Left<br>
+                            <input type="radio" name="q18" value="B"> B. Right<br>
+                            <input type="radio" name="q18" value="C"> C. Center<br>
+                            <input type="radio" name="q18" value="D"> D. Justify<br>
+                        </div>
+                    </div>
+            
+                    <!-- Question 19 -->
+                    <div class="question">
+                        <p>19. How do you make a list that lists items with bullets in HTML?</p>
+                        <div class="options">
+                            <input type="radio" name="q19" value="A"> A. &lt;ul&gt;<br>
+                            <input type="radio" name="q19" value="B"> B. &lt;ol&gt;<br>
+                            <input type="radio" name="q19" value="C"> C. &lt;list&gt;<br>
+                            <input type="radio" name="q19" value="D"> D. &lt;li&gt;<br>
+                        </div>
+                    </div>
+            
+                    <!-- Question 20 -->
+                    <div class="question">
+                        <p>20. What does the <code>&lt;meta&gt;</code> tag do in an HTML document?</p>
+                        <div class="options">
+                            <input type="radio" name="q20" value="A"> A. Provides information about the document like charset and author<br>
+                            <input type="radio" name="q20" value="B"> B. Defines a link to an external file<br>
+                            <input type="radio" name="q20" value="C"> C. Defines a navigation bar<br>
+                            <input type="radio" name="q20" value="D"> D. Embeds a script in the document<br>
+                        </div>
+                    </div>
+            
+                    <!-- Question 21 -->
+                    <div class="question">
+                        <p>21. How do you define an internal CSS stylesheet in HTML?</p>
+                        <div class="options">
+                            <input type="radio" name="q21" value="A"> A. &lt;style&gt;<br>
+                            <input type="radio" name="q21" value="B"> B. &lt;link&gt;<br>
+                            <input type="radio" name="q21" value="C"> C. &lt;css&gt;<br>
+                            <input type="radio" name="q21" value="D"> D. &lt;script&gt;<br>
+                        </div>
+                    </div>
+            
+                    <!-- Question 22 -->
+                    <div class="question">
+                        <p>22. Which of these is used to create a drop-down list in HTML?</p>
+                        <div class="options">
+                            <input type="radio" name="q22" value="A"> A. &lt;dropdown&gt;<br>
+                            <input type="radio" name="q22" value="B"> B. &lt;select&gt;<br>
+                            <input type="radio" name="q22" value="C"> C. &lt;input&gt;<br>
+                            <input type="radio" name="q22" value="D"> D. &lt;option&gt;<br>
+                        </div>
+                    </div>
+            
+                    <!-- Question 23 -->
+                    <div class="question">
+                        <p>23. Which of the following attributes is used to specify the URL of a hyperlink?</p>
+                        <div class="options">
+                            <input type="radio" name="q23" value="A"> A. href<br>
+                            <input type="radio" name="q23" value="B"> B. src<br>
+                            <input type="radio" name="q23" value="C"> C. alt<br>
+                            <input type="radio" name="q23" value="D"> D. target<br>
+                        </div>
+                    </div>
+            
+                    <!-- Question 24 -->
+                    <div class="question">
+                        <p>24. Which of the following tags is used to define a table row in HTML?</p>
+                        <div class="options">
+                            <input type="radio" name="q24" value="A"> A. &lt;tr&gt;<br>
+                            <input type="radio" name="q24" value="B"> B. &lt;td&gt;<br>
+                            <input type="radio" name="q24" value="C"> C. &lt;table&gt;<br>
+                            <input type="radio" name="q24" value="D"> D. &lt;th&gt;<br>
+                        </div>
+                    </div>
+            
+                    <!-- Question 25 -->
+                    <div class="question">
+                        <p>25. Which HTML attribute is used to specify the size of a font?</p>
+                        <div class="options">
+                            <input type="radio" name="q25" value="A"> A. font-size<br>
+                            <input type="radio" name="q25" value="B"> B. text-size<br>
+                            <input type="radio" name="q25" value="C"> C. size<br>
+                            <input type="radio" name="q25" value="D"> D. font-style<br>
+                        </div>
+                    </div>
+            
+                    <!-- Question 26 -->
+                    <div class="question">
+                        <p>26. Which of the following is used to add comments in HTML?</p>
+                        <div class="options">
+                            <input type="radio" name="q26" value="A"> A. &lt;!-- comment --&gt;<br>
+                            <input type="radio" name="q26" value="B"> B. // comment<br>
+                            <input type="radio" name="q26" value="C"> C. &lt;comment&gt;<br>
+                            <input type="radio" name="q26" value="D"> D. /* comment */<br>
+                        </div>
+                    </div>
+            
+                    <!-- Question 27 -->
+                    <div class="question">
+                        <p>27. Which of the following is used to define a hyperlink in HTML?</p>
+                        <div class="options">
+                            <input type="radio" name="q27" value="A"> A. &lt;a&gt;<br>
+                            <input type="radio" name="q27" value="B"> B. &lt;link&gt;<br>
+                            <input type="radio" name="q27" value="C"> C. &lt;url&gt;<br>
+                            <input type="radio" name="q27" value="D"> D. &lt;href&gt;<br>
+                        </div>
+                    </div>
+            
+                    <!-- Question 28 -->
+                    <div class="question">
+                        <p>28. What is the default value of the <code>&lt;input&gt;</code> tag type attribute?</p>
+                        <div class="options">
+                            <input type="radio" name="q28" value="A"> A. text<br>
+                            <input type="radio" name="q28" value="B"> B. checkbox<br>
+                            <input type="radio" name="q28" value="C"> C. radio<br>
+                            <input type="radio" name="q28" value="D"> D. password<br>
+                        </div>
+                    </div>
+            
+                    <!-- Question 29 -->
+                    <div class="question">
+                        <p>29. Which tag is used to define the footer of a document in HTML5?</p>
+                        <div class="options">
+                            <input type="radio" name="q29" value="A"> A. &lt;footer&gt;<br>
+                            <input type="radio" name="q29" value="B"> B. &lt;foot&gt;<br>
+                            <input type="radio" name="q29" value="C"> C. &lt;bottom&gt;<br>
+                            <input type="radio" name="q29" value="D"> D. &lt;end&gt;<br>
+                        </div>
+                    </div>
+            
+                    <!-- Question 30 -->
+                    <div class="question">
+                        <p>30. Which HTML element is used to define a division or section?</p>
+                        <div class="options">
+                            <input type="radio" name="q30" value="A"> A. &lt;div&gt;<br>
+                            <input type="radio" name="q30" value="B"> B. &lt;section&gt;<br>
+                            <input type="radio" name="q30" value="C"> C. &lt;container&gt;<br>
+                            <input type="radio" name="q30" value="D"> D. &lt;group&gt;<br>
+                        </div>
+                    </div>
+                    <!-- Question 31 -->
+                    <div class="question">
+                        <p>31. Which of the following elements is used to specify a header in an HTML5 document?</p>
+                        <div class="options">
+                            <input type="radio" name="q31" value="A"> A. &lt;head&gt;<br>
+                            <input type="radio" name="q31" value="B"> B. &lt;header&gt;<br>
+                            <input type="radio" name="q31" value="C"> C. &lt;title&gt;<br>
+                            <input type="radio" name="q31" value="D"> D. &lt;h1&gt;<br>
+                        </div>
+                    </div>
+            
+                    <!-- Question 32 -->
+                    <div class="question">
+                        <p>32. Which tag is used to create an inline frame in HTML?</p>
+                        <div class="options">
+                            <input type="radio" name="q32" value="A"> A. &lt;iframe&gt;<br>
+                            <input type="radio" name="q32" value="B"> B. &lt;frame&gt;<br>
+                            <input type="radio" name="q32" value="C"> C. &lt;frame-set&gt;<br>
+                            <input type="radio" name="q32" value="D"> D. &lt;object&gt;<br>
+                        </div>
+                    </div>
+            
+                    <!-- Question 33 -->
+                    <div class="question">
+                        <p>33. What is the correct way to specify a list item in an ordered list?</p>
+                        <div class="options">
+                            <input type="radio" name="q33" value="A"> A. &lt;li&gt;<br>
+                            <input type="radio" name="q33" value="B"> B. &lt;ol&gt;<br>
+                            <input type="radio" name="q33" value="C"> C. &lt;ul&gt;<br>
+                            <input type="radio" name="q33" value="D"> D. &lt;item&gt;<br>
+                        </div>
+                    </div>
+            
+                    <!-- Question 34 -->
+                    <div class="question">
+                        <p>34. Which HTML tag is used to specify a dropdown list of options?</p>
+                        <div class="options">
+                            <input type="radio" name="q34" value="A"> A. &lt;select&gt;<br>
+                            <input type="radio" name="q34" value="B"> B. &lt;dropdown&gt;<br>
+                            <input type="radio" name="q34" value="C"> C. &lt;option&gt;<br>
+                            <input type="radio" name="q34" value="D"> D. &lt;list&gt;<br>
+                        </div>
+                    </div>
+            
+                    <!-- Question 35 -->
+                    <div class="question">
+                        <p>35. Which of these HTML tags is used to define an input field?</p>
+                        <div class="options">
+                            <input type="radio" name="q35" value="A"> A. &lt;input&gt;<br>
+                            <input type="radio" name="q35" value="B"> B. &lt;form&gt;<br>
+                            <input type="radio" name="q35" value="C"> C. &lt;textarea&gt;<br>
+                            <input type="radio" name="q35" value="D"> D. &lt;button&gt;<br>
+                        </div>
+                    </div>
+            
+                    <!-- Question 36 -->
+                    <div class="question">
+                        <p>36. How do you make a list that is ordered in HTML?</p>
+                        <div class="options">
+                            <input type="radio" name="q36" value="A"> A. &lt;ol&gt;<br>
+                            <input type="radio" name="q36" value="B"> B. &lt;ul&gt;<br>
+                            <input type="radio" name="q36" value="C"> C. &lt;li&gt;<br>
+                            <input type="radio" name="q36" value="D"> D. &lt;dl&gt;<br>
+                        </div>
+                    </div>
+            
+                    <!-- Question 37 -->
+                    <div class="question">
+                        <p>37. What is the correct syntax to link an external CSS file to an HTML document?</p>
+                        <div class="options">
+                            <input type="radio" name="q37" value="A"> A. &lt;link rel="stylesheet" type="text/css" href="style.css"&gt;<br>
+                            <input type="radio" name="q37" value="B"> B. &lt;style href="style.css"&gt;<br>
+                            <input type="radio" name="q37" value="C"> C. &lt;script src="style.css"&gt;<br>
+                            <input type="radio" name="q37" value="D"> D. &lt;css src="style.css"&gt;<br>
+                        </div>
+                    </div>
+            
+                    <!-- Question 38 -->
+                    <div class="question">
+                        <p>38. Which tag is used to define a table in HTML?</p>
+                        <div class="options">
+                            <input type="radio" name="q38" value="A"> A. &lt;table&gt;<br>
+                            <input type="radio" name="q38" value="B"> B. &lt;tr&gt;<br>
+                            <input type="radio" name="q38" value="C"> C. &lt;th&gt;<br>
+                            <input type="radio" name="q38" value="D"> D. &lt;td&gt;<br>
+                        </div>
+                    </div>
+            
+                    <!-- Question 39 -->
+                    <div class="question">
+                        <p>39. Which attribute is used to specify the source file for an image in HTML?</p>
+                        <div class="options">
+                            <input type="radio" name="q39" value="A"> A. src<br>
+                            <input type="radio" name="q39" value="B"> B. alt<br>
+                            <input type="radio" name="q39" value="C"> C. href<br>
+                            <input type="radio" name="q39" value="D"> D. source<br>
+                        </div>
+                    </div>
+            
+                    <!-- Question 40 -->
+                    <div class="question">
+                        <p>40. How do you specify the language of an HTML document?</p>
+                        <div class="options">
+                            <input type="radio" name="q40" value="A"> A. &lt;html lang="en"&gt;<br>
+                            <input type="radio" name="q40" value="B"> B. &lt;language="en"&gt;<br>
+                            <input type="radio" name="q40" value="C"> C. &lt;head lang="en"&gt;<br>
+                            <input type="radio" name="q40" value="D"> D. &lt;meta lang="en"&gt;<br>
+                        </div>
+                    </div>
+            
+                    <!-- Question 41 -->
+                    <div class="question">
+                        <p>41. Which element is used to define a navigation menu in HTML5?</p>
+                        <div class="options">
+                            <input type="radio" name="q41" value="A"> A. &lt;nav&gt;<br>
+                            <input type="radio" name="q41" value="B"> B. &lt;menu&gt;<br>
+                            <input type="radio" name="q41" value="C"> C. &lt;navbar&gt;<br>
+                            <input type="radio" name="q41" value="D"> D. &lt;ul&gt;<br>
+                        </div>
+                    </div>
+            
+                    <!-- Question 42 -->
+                    <div class="question">
+                        <p>42. What is the purpose of the &lt;meta&gt; tag in HTML?</p>
+                        <div class="options">
+                            <input type="radio" name="q42" value="A"> A. To add meta-information about the document<br>
+                            <input type="radio" name="q42" value="B"> B. To create navigation links<br>
+                            <input type="radio" name="q42" value="C"> C. To embed multimedia content<br>
+                            <input type="radio" name="q42" value="D"> D. To display the title of the page<br>
+                        </div>
+                    </div>
+            
+                    <!-- Question 43 -->
+                    <div class="question">
+                        <p>43. Which tag is used to specify a block-level quote in HTML?</p>
+                        <div class="options">
+                            <input type="radio" name="q43" value="A"> A. &lt;q&gt;<br>
+                            <input type="radio" name="q43" value="B"> B. &lt;blockquote&gt;<br>
+                            <input type="radio" name="q43" value="C"> C. &lt;quote&gt;<br>
+                            <input type="radio" name="q43" value="D"> D. &lt;cite&gt;<br>
+                        </div>
+                    </div>
+            
+                    <!-- Question 44 -->
+                    <div class="question">
+                        <p>44. What does the &lt;video&gt; tag do in HTML5?</p>
+                        <div class="options">
+                            <input type="radio" name="q44" value="A"> A. Embeds a video in the webpage<br>
+                            <input type="radio" name="q44" value="B"> B. Embeds audio in the webpage<br>
+                            <input type="radio" name="q44" value="C"> C. Creates a link to a video file<br>
+                            <input type="radio" name="q44" value="D"> D. Adds a download button for videos<br>
+                        </div>
+                    </div>
+            
+                    <!-- Question 45 -->
+                    <div class="question">
+                        <p>45. Which of the following is used to specify a character encoding in HTML?</p>
+                        <div class="options">
+                            <input type="radio" name="q45" value="A"> A. &lt;meta charset="UTF-8"&gt;<br>
+                            <input type="radio" name="q45" value="B"> B. &lt;meta charset="UTF"&gt;<br>
+                            <input type="radio" name="q45" value="C"> C. &lt;meta encoding="UTF-8"&gt;<br>
+                            <input type="radio" name="q45" value="D"> D. &lt;meta type="UTF-8"&gt;<br>
+                        </div>
+                    </div>
+                    
+                    <!-- Question 51 -->
+    <div class="question">
+        <p>51. Which tag is used to define a paragraph in HTML?</p>
+        <div class="options">
+            <input type="radio" name="q51" value="A"> A. &lt;p&gt;<br>
+            <input type="radio" name="q51" value="B"> B. &lt;para&gt;<br>
+            <input type="radio" name="q51" value="C"> C. &lt;text&gt;<br>
+            <input type="radio" name="q51" value="D"> D. &lt;content&gt;<br>
         </div>
-
-        <!-- Question 14 -->
-        <div class="question">
-            <p>14. Which HTML attribute is used to define inline styles?</p>
-            <div class="options">
-                <input type="radio" name="q14" value="A"> A. class<br>
-                <input type="radio" name="q14" value="B"> B. style<br>
-                <input type="radio" name="q14" value="C"> C. id<br>
-                <input type="radio" name="q14" value="D"> D. href<br>
-            </div>
+    </div>
+    
+    <!-- Question 52 -->
+    <div class="question">
+        <p>52. What does the &lt;strong&gt; tag do in HTML?</p>
+        <div class="options">
+            <input type="radio" name="q52" value="A"> A. It makes the text bold<br>
+            <input type="radio" name="q52" value="B"> B. It makes the text italic<br>
+            <input type="radio" name="q52" value="C"> C. It highlights the text<br>
+            <input type="radio" name="q52" value="D"> D. It adds underline to the text<br>
         </div>
-
-        <!-- Question 15 -->
-        <div class="question">
-            <p>15. Which tag is used to define the header in HTML5?</p>
-            <div class="options">
-                <input type="radio" name="q15" value="A"> A. &lt;header&gt;<br>
-                <input type="radio" name="q15" value="B"> B. &lt;head&gt;<br>
-                <input type="radio" name="q15" value="C"> C. &lt;h1&gt;<br>
-                <input type="radio" name="q15" value="D"> D. &lt;section&gt;<br>
-            </div>
+    </div>
+    
+    <!-- Question 53 -->
+    <div class="question">
+        <p>53. Which attribute is used to specify the size of a text box in HTML?</p>
+        <div class="options">
+            <input type="radio" name="q53" value="A"> A. size<br>
+            <input type="radio" name="q53" value="B"> B. width<br>
+            <input type="radio" name="q53" value="C"> C. height<br>
+            <input type="radio" name="q53" value="D"> D. length<br>
         </div>
-
-                <!-- Question 16 -->
-                <div class="question">
-                    <p>16. What is the correct HTML element for inserting a line break?</p>
-                    <div class="options">
-                        <input type="radio" name="q16" value="A"> A. &lt;br&gt;<br>
-                        <input type="radio" name="q16" value="B"> B. &lt;break&gt;<br>
-                        <input type="radio" name="q16" value="C"> C. &lt;lb&gt;<br>
-                        <input type="radio" name="q16" value="D"> D. &lt;linebreak&gt;<br>
-                    </div>
-                </div>
-        
-                <!-- Question 17 -->
-                <div class="question">
-                    <p>17. What is the purpose of the <code>&lt;head&gt;</code> tag in HTML?</p>
-                    <div class="options">
-                        <input type="radio" name="q17" value="A"> A. To display the main content of the webpage<br>
-                        <input type="radio" name="q17" value="B"> B. To include meta-information about the document<br>
-                        <input type="radio" name="q17" value="C"> C. To create the footer of the webpage<br>
-                        <input type="radio" name="q17" value="D"> D. To display navigation menus<br>
-                    </div>
-                </div>
-        
-                <!-- Question 18 -->
-                <div class="question">
-                    <p>18. What is the default alignment of text in an HTML paragraph?</p>
-                    <div class="options">
-                        <input type="radio" name="q18" value="A"> A. Left<br>
-                        <input type="radio" name="q18" value="B"> B. Right<br>
-                        <input type="radio" name="q18" value="C"> C. Center<br>
-                        <input type="radio" name="q18" value="D"> D. Justify<br>
-                    </div>
-                </div>
-        
-                <!-- Question 19 -->
-                <div class="question">
-                    <p>19. How do you make a list that lists items with bullets in HTML?</p>
-                    <div class="options">
-                        <input type="radio" name="q19" value="A"> A. &lt;ul&gt;<br>
-                        <input type="radio" name="q19" value="B"> B. &lt;ol&gt;<br>
-                        <input type="radio" name="q19" value="C"> C. &lt;list&gt;<br>
-                        <input type="radio" name="q19" value="D"> D. &lt;li&gt;<br>
-                    </div>
-                </div>
-        
-                <!-- Question 20 -->
-                <div class="question">
-                    <p>20. What does the <code>&lt;meta&gt;</code> tag do in an HTML document?</p>
-                    <div class="options">
-                        <input type="radio" name="q20" value="A"> A. Provides information about the document like charset and author<br>
-                        <input type="radio" name="q20" value="B"> B. Defines a link to an external file<br>
-                        <input type="radio" name="q20" value="C"> C. Defines a navigation bar<br>
-                        <input type="radio" name="q20" value="D"> D. Embeds a script in the document<br>
-                    </div>
-                </div>
-        
-                <!-- Question 21 -->
-                <div class="question">
-                    <p>21. How do you define an internal CSS stylesheet in HTML?</p>
-                    <div class="options">
-                        <input type="radio" name="q21" value="A"> A. &lt;style&gt;<br>
-                        <input type="radio" name="q21" value="B"> B. &lt;link&gt;<br>
-                        <input type="radio" name="q21" value="C"> C. &lt;css&gt;<br>
-                        <input type="radio" name="q21" value="D"> D. &lt;script&gt;<br>
-                    </div>
-                </div>
-        
-                <!-- Question 22 -->
-                <div class="question">
-                    <p>22. Which of these is used to create a drop-down list in HTML?</p>
-                    <div class="options">
-                        <input type="radio" name="q22" value="A"> A. &lt;dropdown&gt;<br>
-                        <input type="radio" name="q22" value="B"> B. &lt;select&gt;<br>
-                        <input type="radio" name="q22" value="C"> C. &lt;input&gt;<br>
-                        <input type="radio" name="q22" value="D"> D. &lt;option&gt;<br>
-                    </div>
-                </div>
-        
-                <!-- Question 23 -->
-                <div class="question">
-                    <p>23. Which of the following attributes is used to specify the URL of a hyperlink?</p>
-                    <div class="options">
-                        <input type="radio" name="q23" value="A"> A. href<br>
-                        <input type="radio" name="q23" value="B"> B. src<br>
-                        <input type="radio" name="q23" value="C"> C. alt<br>
-                        <input type="radio" name="q23" value="D"> D. target<br>
-                    </div>
-                </div>
-        
-                <!-- Question 24 -->
-                <div class="question">
-                    <p>24. Which of the following tags is used to define a table row in HTML?</p>
-                    <div class="options">
-                        <input type="radio" name="q24" value="A"> A. &lt;tr&gt;<br>
-                        <input type="radio" name="q24" value="B"> B. &lt;td&gt;<br>
-                        <input type="radio" name="q24" value="C"> C. &lt;table&gt;<br>
-                        <input type="radio" name="q24" value="D"> D. &lt;th&gt;<br>
-                    </div>
-                </div>
-        
-                <!-- Question 25 -->
-                <div class="question">
-                    <p>25. Which HTML attribute is used to specify the size of a font?</p>
-                    <div class="options">
-                        <input type="radio" name="q25" value="A"> A. font-size<br>
-                        <input type="radio" name="q25" value="B"> B. text-size<br>
-                        <input type="radio" name="q25" value="C"> C. size<br>
-                        <input type="radio" name="q25" value="D"> D. font-style<br>
-                    </div>
-                </div>
-        
-                <!-- Question 26 -->
-                <div class="question">
-                    <p>26. Which of the following is used to add comments in HTML?</p>
-                    <div class="options">
-                        <input type="radio" name="q26" value="A"> A. &lt;!-- comment --&gt;<br>
-                        <input type="radio" name="q26" value="B"> B. // comment<br>
-                        <input type="radio" name="q26" value="C"> C. &lt;comment&gt;<br>
-                        <input type="radio" name="q26" value="D"> D. /* comment */<br>
-                    </div>
-                </div>
-        
-                <!-- Question 27 -->
-                <div class="question">
-                    <p>27. Which of the following is used to define a hyperlink in HTML?</p>
-                    <div class="options">
-                        <input type="radio" name="q27" value="A"> A. &lt;a&gt;<br>
-                        <input type="radio" name="q27" value="B"> B. &lt;link&gt;<br>
-                        <input type="radio" name="q27" value="C"> C. &lt;url&gt;<br>
-                        <input type="radio" name="q27" value="D"> D. &lt;href&gt;<br>
-                    </div>
-                </div>
-        
-                <!-- Question 28 -->
-                <div class="question">
-                    <p>28. What is the default value of the <code>&lt;input&gt;</code> tag type attribute?</p>
-                    <div class="options">
-                        <input type="radio" name="q28" value="A"> A. text<br>
-                        <input type="radio" name="q28" value="B"> B. checkbox<br>
-                        <input type="radio" name="q28" value="C"> C. radio<br>
-                        <input type="radio" name="q28" value="D"> D. password<br>
-                    </div>
-                </div>
-        
-                <!-- Question 29 -->
-                <div class="question">
-                    <p>29. Which tag is used to define the footer of a document in HTML5?</p>
-                    <div class="options">
-                        <input type="radio" name="q29" value="A"> A. &lt;footer&gt;<br>
-                        <input type="radio" name="q29" value="B"> B. &lt;foot&gt;<br>
-                        <input type="radio" name="q29" value="C"> C. &lt;bottom&gt;<br>
-                        <input type="radio" name="q29" value="D"> D. &lt;end&gt;<br>
-                    </div>
-                </div>
-        
-                <!-- Question 30 -->
-                <div class="question">
-                    <p>30. Which HTML element is used to define a division or section?</p>
-                    <div class="options">
-                        <input type="radio" name="q30" value="A"> A. &lt;div&gt;<br>
-                        <input type="radio" name="q30" value="B"> B. &lt;section&gt;<br>
-                        <input type="radio" name="q30" value="C"> C. &lt;container&gt;<br>
-                        <input type="radio" name="q30" value="D"> D. &lt;group&gt;<br>
-                    </div>
-                </div>
-                <!-- Question 31 -->
-                <div class="question">
-                    <p>31. Which of the following elements is used to specify a header in an HTML5 document?</p>
-                    <div class="options">
-                        <input type="radio" name="q31" value="A"> A. &lt;head&gt;<br>
-                        <input type="radio" name="q31" value="B"> B. &lt;header&gt;<br>
-                        <input type="radio" name="q31" value="C"> C. &lt;title&gt;<br>
-                        <input type="radio" name="q31" value="D"> D. &lt;h1&gt;<br>
-                    </div>
-                </div>
-        
-                <!-- Question 32 -->
-                <div class="question">
-                    <p>32. Which tag is used to create an inline frame in HTML?</p>
-                    <div class="options">
-                        <input type="radio" name="q32" value="A"> A. &lt;iframe&gt;<br>
-                        <input type="radio" name="q32" value="B"> B. &lt;frame&gt;<br>
-                        <input type="radio" name="q32" value="C"> C. &lt;frame-set&gt;<br>
-                        <input type="radio" name="q32" value="D"> D. &lt;object&gt;<br>
-                    </div>
-                </div>
-        
-                <!-- Question 33 -->
-                <div class="question">
-                    <p>33. What is the correct way to specify a list item in an ordered list?</p>
-                    <div class="options">
-                        <input type="radio" name="q33" value="A"> A. &lt;li&gt;<br>
-                        <input type="radio" name="q33" value="B"> B. &lt;ol&gt;<br>
-                        <input type="radio" name="q33" value="C"> C. &lt;ul&gt;<br>
-                        <input type="radio" name="q33" value="D"> D. &lt;item&gt;<br>
-                    </div>
-                </div>
-        
-                <!-- Question 34 -->
-                <div class="question">
-                    <p>34. Which HTML tag is used to specify a dropdown list of options?</p>
-                    <div class="options">
-                        <input type="radio" name="q34" value="A"> A. &lt;select&gt;<br>
-                        <input type="radio" name="q34" value="B"> B. &lt;dropdown&gt;<br>
-                        <input type="radio" name="q34" value="C"> C. &lt;option&gt;<br>
-                        <input type="radio" name="q34" value="D"> D. &lt;list&gt;<br>
-                    </div>
-                </div>
-        
-                <!-- Question 35 -->
-                <div class="question">
-                    <p>35. Which of these HTML tags is used to define an input field?</p>
-                    <div class="options">
-                        <input type="radio" name="q35" value="A"> A. &lt;input&gt;<br>
-                        <input type="radio" name="q35" value="B"> B. &lt;form&gt;<br>
-                        <input type="radio" name="q35" value="C"> C. &lt;textarea&gt;<br>
-                        <input type="radio" name="q35" value="D"> D. &lt;button&gt;<br>
-                    </div>
-                </div>
-        
-                <!-- Question 36 -->
-                <div class="question">
-                    <p>36. How do you make a list that is ordered in HTML?</p>
-                    <div class="options">
-                        <input type="radio" name="q36" value="A"> A. &lt;ol&gt;<br>
-                        <input type="radio" name="q36" value="B"> B. &lt;ul&gt;<br>
-                        <input type="radio" name="q36" value="C"> C. &lt;li&gt;<br>
-                        <input type="radio" name="q36" value="D"> D. &lt;dl&gt;<br>
-                    </div>
-                </div>
-        
-                <!-- Question 37 -->
-                <div class="question">
-                    <p>37. What is the correct syntax to link an external CSS file to an HTML document?</p>
-                    <div class="options">
-                        <input type="radio" name="q37" value="A"> A. &lt;link rel="stylesheet" type="text/css" href="style.css"&gt;<br>
-                        <input type="radio" name="q37" value="B"> B. &lt;style href="style.css"&gt;<br>
-                        <input type="radio" name="q37" value="C"> C. &lt;script src="style.css"&gt;<br>
-                        <input type="radio" name="q37" value="D"> D. &lt;css src="style.css"&gt;<br>
-                    </div>
-                </div>
-        
-                <!-- Question 38 -->
-                <div class="question">
-                    <p>38. Which tag is used to define a table in HTML?</p>
-                    <div class="options">
-                        <input type="radio" name="q38" value="A"> A. &lt;table&gt;<br>
-                        <input type="radio" name="q38" value="B"> B. &lt;tr&gt;<br>
-                        <input type="radio" name="q38" value="C"> C. &lt;th&gt;<br>
-                        <input type="radio" name="q38" value="D"> D. &lt;td&gt;<br>
-                    </div>
-                </div>
-        
-                <!-- Question 39 -->
-                <div class="question">
-                    <p>39. Which attribute is used to specify the source file for an image in HTML?</p>
-                    <div class="options">
-                        <input type="radio" name="q39" value="A"> A. src<br>
-                        <input type="radio" name="q39" value="B"> B. alt<br>
-                        <input type="radio" name="q39" value="C"> C. href<br>
-                        <input type="radio" name="q39" value="D"> D. source<br>
-                    </div>
-                </div>
-        
-                <!-- Question 40 -->
-                <div class="question">
-                    <p>40. How do you specify the language of an HTML document?</p>
-                    <div class="options">
-                        <input type="radio" name="q40" value="A"> A. &lt;html lang="en"&gt;<br>
-                        <input type="radio" name="q40" value="B"> B. &lt;language="en"&gt;<br>
-                        <input type="radio" name="q40" value="C"> C. &lt;head lang="en"&gt;<br>
-                        <input type="radio" name="q40" value="D"> D. &lt;meta lang="en"&gt;<br>
-                    </div>
-                </div>
-        
-                <!-- Question 41 -->
-                <div class="question">
-                    <p>41. Which element is used to define a navigation menu in HTML5?</p>
-                    <div class="options">
-                        <input type="radio" name="q41" value="A"> A. &lt;nav&gt;<br>
-                        <input type="radio" name="q41" value="B"> B. &lt;menu&gt;<br>
-                        <input type="radio" name="q41" value="C"> C. &lt;navbar&gt;<br>
-                        <input type="radio" name="q41" value="D"> D. &lt;ul&gt;<br>
-                    </div>
-                </div>
-        
-                <!-- Question 42 -->
-                <div class="question">
-                    <p>42. What is the purpose of the &lt;meta&gt; tag in HTML?</p>
-                    <div class="options">
-                        <input type="radio" name="q42" value="A"> A. To add meta-information about the document<br>
-                        <input type="radio" name="q42" value="B"> B. To create navigation links<br>
-                        <input type="radio" name="q42" value="C"> C. To embed multimedia content<br>
-                        <input type="radio" name="q42" value="D"> D. To display the title of the page<br>
-                    </div>
-                </div>
-        
-                <!-- Question 43 -->
-                <div class="question">
-                    <p>43. Which tag is used to specify a block-level quote in HTML?</p>
-                    <div class="options">
-                        <input type="radio" name="q43" value="A"> A. &lt;q&gt;<br>
-                        <input type="radio" name="q43" value="B"> B. &lt;blockquote&gt;<br>
-                        <input type="radio" name="q43" value="C"> C. &lt;quote&gt;<br>
-                        <input type="radio" name="q43" value="D"> D. &lt;cite&gt;<br>
-                    </div>
-                </div>
-        
-                <!-- Question 44 -->
-                <div class="question">
-                    <p>44. What does the &lt;video&gt; tag do in HTML5?</p>
-                    <div class="options">
-                        <input type="radio" name="q44" value="A"> A. Embeds a video in the webpage<br>
-                        <input type="radio" name="q44" value="B"> B. Embeds audio in the webpage<br>
-                        <input type="radio" name="q44" value="C"> C. Creates a link to a video file<br>
-                        <input type="radio" name="q44" value="D"> D. Adds a download button for videos<br>
-                    </div>
-                </div>
-        
-                <!-- Question 45 -->
-                <div class="question">
-                    <p>45. Which of the following is used to specify a character encoding in HTML?</p>
-                    <div class="options">
-                        <input type="radio" name="q45" value="A"> A. &lt;meta charset="UTF-8"&gt;<br>
-                        <input type="radio" name="q45" value="B"> B. &lt;meta charset="UTF"&gt;<br>
-                        <input type="radio" name="q45" value="C"> C. &lt;meta encoding="UTF-8"&gt;<br>
-                        <input type="radio" name="q45" value="D"> D. &lt;meta type="UTF-8"&gt;<br>
-                    </div>
-                </div>
-                
-                <!-- Question 51 -->
-<div class="question">
-    <p>51. Which tag is used to define a paragraph in HTML?</p>
-    <div class="options">
-        <input type="radio" name="q51" value="A"> A. &lt;p&gt;<br>
-        <input type="radio" name="q51" value="B"> B. &lt;para&gt;<br>
-        <input type="radio" name="q51" value="C"> C. &lt;text&gt;<br>
-        <input type="radio" name="q51" value="D"> D. &lt;content&gt;<br>
     </div>
-</div>
-
-<!-- Question 52 -->
-<div class="question">
-    <p>52. What does the &lt;strong&gt; tag do in HTML?</p>
-    <div class="options">
-        <input type="radio" name="q52" value="A"> A. It makes the text bold<br>
-        <input type="radio" name="q52" value="B"> B. It makes the text italic<br>
-        <input type="radio" name="q52" value="C"> C. It highlights the text<br>
-        <input type="radio" name="q52" value="D"> D. It adds underline to the text<br>
+    
+    <!-- Question 54 -->
+    <div class="question">
+        <p>54. Which tag is used to create a hyperlink in HTML?</p>
+        <div class="options">
+            <input type="radio" name="q54" value="A"> A. &lt;a&gt;<br>
+            <input type="radio" name="q54" value="B"> B. &lt;link&gt;<br>
+            <input type="radio" name="q54" value="C"> C. &lt;href&gt;<br>
+            <input type="radio" name="q54" value="D"> D. &lt;hyperlink&gt;<br>
+        </div>
     </div>
-</div>
-
-<!-- Question 53 -->
-<div class="question">
-    <p>53. Which attribute is used to specify the size of a text box in HTML?</p>
-    <div class="options">
-        <input type="radio" name="q53" value="A"> A. size<br>
-        <input type="radio" name="q53" value="B"> B. width<br>
-        <input type="radio" name="q53" value="C"> C. height<br>
-        <input type="radio" name="q53" value="D"> D. length<br>
+    
+    <!-- Question 55 -->
+    <div class="question">
+        <p>55. Which of these HTML tags is used to create a line break?</p>
+        <div class="options">
+            <input type="radio" name="q55" value="A"> A. &lt;br&gt;<br>
+            <input type="radio" name="q55" value="B"> B. &lt;break&gt;<br>
+            <input type="radio" name="q55" value="C"> C. &lt;hr&gt;<br>
+            <input type="radio" name="q55" value="D"> D. &lt;newline&gt;<br>
+        </div>
     </div>
-</div>
-
-<!-- Question 54 -->
-<div class="question">
-    <p>54. Which tag is used to create a hyperlink in HTML?</p>
-    <div class="options">
-        <input type="radio" name="q54" value="A"> A. &lt;a&gt;<br>
-        <input type="radio" name="q54" value="B"> B. &lt;link&gt;<br>
-        <input type="radio" name="q54" value="C"> C. &lt;href&gt;<br>
-        <input type="radio" name="q54" value="D"> D. &lt;hyperlink&gt;<br>
+    
+    <!-- Question 56 -->
+    <div class="question">
+        <p>56. What does the &lt;em&gt; tag do in HTML?</p>
+        <div class="options">
+            <input type="radio" name="q56" value="A"> A. It adds emphasis (usually italicizes the text)<br>
+            <input type="radio" name="q56" value="B"> B. It makes the text bold<br>
+            <input type="radio" name="q56" value="C"> C. It creates a line break<br>
+            <input type="radio" name="q56" value="D"> D. It underlines the text<br>
+        </div>
     </div>
-</div>
-
-<!-- Question 55 -->
-<div class="question">
-    <p>55. Which of these HTML tags is used to create a line break?</p>
-    <div class="options">
-        <input type="radio" name="q55" value="A"> A. &lt;br&gt;<br>
-        <input type="radio" name="q55" value="B"> B. &lt;break&gt;<br>
-        <input type="radio" name="q55" value="C"> C. &lt;hr&gt;<br>
-        <input type="radio" name="q55" value="D"> D. &lt;newline&gt;<br>
+    
+    <!-- Question 57 -->
+    <div class="question">
+        <p>57. Which attribute specifies the URL of the page the link goes to?</p>
+        <div class="options">
+            <input type="radio" name="q57" value="A"> A. href<br>
+            <input type="radio" name="q57" value="B"> B. src<br>
+            <input type="radio" name="q57" value="C"> C. link<br>
+            <input type="radio" name="q57" value="D"> D. url<br>
+        </div>
     </div>
-</div>
-
-<!-- Question 56 -->
-<div class="question">
-    <p>56. What does the &lt;em&gt; tag do in HTML?</p>
-    <div class="options">
-        <input type="radio" name="q56" value="A"> A. It adds emphasis (usually italicizes the text)<br>
-        <input type="radio" name="q56" value="B"> B. It makes the text bold<br>
-        <input type="radio" name="q56" value="C"> C. It creates a line break<br>
-        <input type="radio" name="q56" value="D"> D. It underlines the text<br>
+    
+    <!-- Question 58 -->
+    <div class="question">
+        <p>58. Which tag is used to define an unordered list in HTML?</p>
+        <div class="options">
+            <input type="radio" name="q58" value="A"> A. &lt;ul&gt;<br>
+            <input type="radio" name="q58" value="B"> B. &lt;ol&gt;<br>
+            <input type="radio" name="q58" value="C"> C. &lt;list&gt;<br>
+            <input type="radio" name="q58" value="D"> D. &lt;li&gt;<br>
+        </div>
     </div>
-</div>
-
-<!-- Question 57 -->
-<div class="question">
-    <p>57. Which attribute specifies the URL of the page the link goes to?</p>
-    <div class="options">
-        <input type="radio" name="q57" value="A"> A. href<br>
-        <input type="radio" name="q57" value="B"> B. src<br>
-        <input type="radio" name="q57" value="C"> C. link<br>
-        <input type="radio" name="q57" value="D"> D. url<br>
+    
+    <!-- Question 59 -->
+    <div class="question">
+        <p>59. How do you specify a placeholder text in an input field?</p>
+        <div class="options">
+            <input type="radio" name="q59" value="A"> A. placeholder="Enter text"<br>
+            <input type="radio" name="q59" value="B"> B. text="Enter text"<br>
+            <input type="radio" name="q59" value="C"> C. label="Enter text"<br>
+            <input type="radio" name="q59" value="D"> D. hint="Enter text"<br>
+        </div>
     </div>
-</div>
-
-<!-- Question 58 -->
-<div class="question">
-    <p>58. Which tag is used to define an unordered list in HTML?</p>
-    <div class="options">
-        <input type="radio" name="q58" value="A"> A. &lt;ul&gt;<br>
-        <input type="radio" name="q58" value="B"> B. &lt;ol&gt;<br>
-        <input type="radio" name="q58" value="C"> C. &lt;list&gt;<br>
-        <input type="radio" name="q58" value="D"> D. &lt;li&gt;<br>
+    
+    <!-- Question 60 -->
+    <div class="question">
+        <p>60. What is the correct syntax for adding an image in HTML?</p>
+        <div class="options">
+            <input type="radio" name="q60" value="A"> A. &lt;img src="image.jpg"&gt;<br>
+            <input type="radio" name="q60" value="B"> B. &lt;image src="image.jpg"&gt;<br>
+            <input type="radio" name="q60" value="C"> C. &lt;pic src="image.jpg"&gt;<br>
+            <input type="radio" name="q60" value="D"> D. &lt;image-link src="image.jpg"&gt;<br>
+        </div>
     </div>
-</div>
-
-<!-- Question 59 -->
-<div class="question">
-    <p>59. How do you specify a placeholder text in an input field?</p>
-    <div class="options">
-        <input type="radio" name="q59" value="A"> A. placeholder="Enter text"<br>
-        <input type="radio" name="q59" value="B"> B. text="Enter text"<br>
-        <input type="radio" name="q59" value="C"> C. label="Enter text"<br>
-        <input type="radio" name="q59" value="D"> D. hint="Enter text"<br>
+    
+    <!-- Question 61 -->
+    <div class="question">
+        <p>61. Which tag is used to define a table row in HTML?</p>
+        <div class="options">
+            <input type="radio" name="q61" value="A"> A. &lt;tr&gt;<br>
+            <input type="radio" name="q61" value="B"> B. &lt;td&gt;<br>
+            <input type="radio" name="q61" value="C"> C. &lt;th&gt;<br>
+            <input type="radio" name="q61" value="D"> D. &lt;table-row&gt;<br>
+        </div>
     </div>
-</div>
-
-<!-- Question 60 -->
-<div class="question">
-    <p>60. What is the correct syntax for adding an image in HTML?</p>
-    <div class="options">
-        <input type="radio" name="q60" value="A"> A. &lt;img src="image.jpg"&gt;<br>
-        <input type="radio" name="q60" value="B"> B. &lt;image src="image.jpg"&gt;<br>
-        <input type="radio" name="q60" value="C"> C. &lt;pic src="image.jpg"&gt;<br>
-        <input type="radio" name="q60" value="D"> D. &lt;image-link src="image.jpg"&gt;<br>
+    
+    <!-- Question 62 -->
+    <div class="question">
+        <p>62. How do you create a comment in HTML?</p>
+        <div class="options">
+            <input type="radio" name="q62" value="A"> A. &lt;!-- This is a comment --&gt;<br>
+            <input type="radio" name="q62" value="B"> B. &lt;comment&gt;This is a comment&lt;/comment&gt;<br>
+            <input type="radio" name="q62" value="C"> C. &lt;--! This is a comment !--&gt;<br>
+            <input type="radio" name="q62" value="D"> D. &lt;comment&gt;This is a comment&lt;/comment&gt;<br>
+        </div>
     </div>
-</div>
-
-<!-- Question 61 -->
-<div class="question">
-    <p>61. Which tag is used to define a table row in HTML?</p>
-    <div class="options">
-        <input type="radio" name="q61" value="A"> A. &lt;tr&gt;<br>
-        <input type="radio" name="q61" value="B"> B. &lt;td&gt;<br>
-        <input type="radio" name="q61" value="C"> C. &lt;th&gt;<br>
-        <input type="radio" name="q61" value="D"> D. &lt;table-row&gt;<br>
+    
+    <!-- Question 63 -->
+    <div class="question">
+        <p>63. Which tag is used to define a footer in HTML5?</p>
+        <div class="options">
+            <input type="radio" name="q63" value="A"> A. &lt;footer&gt;<br>
+            <input type="radio" name="q63" value="B"> B. &lt;footer-section&gt;<br>
+            <input type="radio" name="q63" value="C"> C. &lt;foot&gt;<br>
+            <input type="radio" name="q63" value="D"> D. &lt;bottom&gt;<br>
+        </div>
     </div>
-</div>
-
-<!-- Question 62 -->
-<div class="question">
-    <p>62. How do you create a comment in HTML?</p>
-    <div class="options">
-        <input type="radio" name="q62" value="A"> A. &lt;!-- This is a comment --&gt;<br>
-        <input type="radio" name="q62" value="B"> B. &lt;comment&gt;This is a comment&lt;/comment&gt;<br>
-        <input type="radio" name="q62" value="C"> C. &lt;--! This is a comment !--&gt;<br>
-        <input type="radio" name="q62" value="D"> D. &lt;comment&gt;This is a comment&lt;/comment&gt;<br>
+    
+    <!-- Question 64 -->
+    <div class="question">
+        <p>64. How do you define the width of a table in HTML?</p>
+        <div class="options">
+            <input type="radio" name="q64" value="A"> A. width="100%"<br>
+            <input type="radio" name="q64" value="B"> B. size="100%"<br>
+            <input type="radio" name="q64" value="C"> C. table-width="100%"<br>
+            <input type="radio" name="q64" value="D"> D. &lt;table width="100%"&gt;<br>
+        </div>
     </div>
-</div>
-
-<!-- Question 63 -->
-<div class="question">
-    <p>63. Which tag is used to define a footer in HTML5?</p>
-    <div class="options">
-        <input type="radio" name="q63" value="A"> A. &lt;footer&gt;<br>
-        <input type="radio" name="q63" value="B"> B. &lt;footer-section&gt;<br>
-        <input type="radio" name="q63" value="C"> C. &lt;foot&gt;<br>
-        <input type="radio" name="q63" value="D"> D. &lt;bottom&gt;<br>
+     <!-- Question 65 -->
+    <div class="question">
+        <p>65. Which HTML tag is used to specify a table header?</p>
+        <div class="options">
+            <input type="radio" name="q65" value="A"> A. &lt;thead&gt;<br>
+            <input type="radio" name="q65" value="B"> B. &lt;th&gt;<br>
+            <input type="radio" name="q65" value="C"> C. &lt;header&gt;<br>
+            <input type="radio" name="q65" value="D"> D. &lt;table-head&gt;<br>
+        </div>
     </div>
-</div>
-
-<!-- Question 64 -->
-<div class="question">
-    <p>64. How do you define the width of a table in HTML?</p>
-    <div class="options">
-        <input type="radio" name="q64" value="A"> A. width="100%"<br>
-        <input type="radio" name="q64" value="B"> B. size="100%"<br>
-        <input type="radio" name="q64" value="C"> C. table-width="100%"<br>
-        <input type="radio" name="q64" value="D"> D. &lt;table width="100%"&gt;<br>
+    <!-- Example: -->
+    <p>In a table, the <code>&lt;th&gt;</code> tag is used to define the table headers:</p>
+    <pre>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>John</td>
+        <td>25</td>
+      </tr>
+      <tr>
+        <td>Alice</td>
+        <td>30</td>
+      </tr>
+    </table>
+    </pre>
+    
+    <!-- Question 66 -->
+    <div class="question">
+        <p>66. What is the correct HTML for creating a form element to allow the user to select multiple options from a dropdown list?</p>
+        <div class="options">
+            <input type="radio" name="q66" value="A"> A. &lt;select multiple&gt;<br>
+            <input type="radio" name="q66" value="B"> B. &lt;input type="select"&gt;<br>
+            <input type="radio" name="q66" value="C"> C. &lt;input type="checkbox"&gt;<br>
+            <input type="radio" name="q66" value="D"> D. &lt;select&gt;<br>
+        </div>
     </div>
-</div>
- <!-- Question 65 -->
-<div class="question">
-    <p>65. Which HTML tag is used to specify a table header?</p>
-    <div class="options">
-        <input type="radio" name="q65" value="A"> A. &lt;thead&gt;<br>
-        <input type="radio" name="q65" value="B"> B. &lt;th&gt;<br>
-        <input type="radio" name="q65" value="C"> C. &lt;header&gt;<br>
-        <input type="radio" name="q65" value="D"> D. &lt;table-head&gt;<br>
-    </div>
-</div>
-<!-- Example: -->
-<p>In a table, the <code>&lt;th&gt;</code> tag is used to define the table headers:</p>
-<pre>
-<table>
-  <tr>
-    <th>Name</th>
-    <th>Age</th>
-  </tr>
-  <tr>
-    <td>John</td>
-    <td>25</td>
-  </tr>
-  <tr>
-    <td>Alice</td>
-    <td>30</td>
-  </tr>
-</table>
-</pre>
-
-<!-- Question 66 -->
-<div class="question">
-    <p>66. What is the correct HTML for creating a form element to allow the user to select multiple options from a dropdown list?</p>
-    <div class="options">
-        <input type="radio" name="q66" value="A"> A. &lt;select multiple&gt;<br>
-        <input type="radio" name="q66" value="B"> B. &lt;input type="select"&gt;<br>
-        <input type="radio" name="q66" value="C"> C. &lt;input type="checkbox"&gt;<br>
-        <input type="radio" name="q66" value="D"> D. &lt;select&gt;<br>
-    </div>
-</div>
-<!-- Example: -->
-<p>To allow multiple selection in a dropdown list, use the <code>multiple</code> attribute:</p>
-<pre>
-<form>
-  <label for="colors">Choose your favorite colors:</label><br>
-  <select id="colors" name="colors" multiple size="4">
-    <option value="red">Red</option>
-    <option value="green">Green</option>
-    <option value="blue">Blue</option>
-    <option value="yellow">Yellow</option>
-  </select>
-</form>
-</pre>
-
-<!-- Question 67 -->
-<div class="question">
-    <p>67. Which of the following is the correct syntax for embedding a video in HTML5?</p>
-    <div class="options">
-        <input type="radio" name="q67" value="A"> A. &lt;video src="movie.mp4"&gt;<br>
-        <input type="radio" name="q67" value="B"> B. &lt;video src="movie.mp4" controls&gt;<br>
-        <input type="radio" name="q67" value="C"> C. &lt;embed src="movie.mp4"&gt;<br>
-        <input type="radio" name="q67" value="D"> D. &lt;movie src="movie.mp4"&gt;<br>
-    </div>
-</div>
-<!-- Example: -->
-<p>HTML5 introduces the <code>&lt;video&gt;</code> element, which allows you to embed videos:</p>
-<pre>
-<video width="320" height="240" controls>
-  <source src="movie.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-</pre>
-
-<!-- Question 68 -->
-<div class="question">
-    <p>68. How can you make an image responsive (adjust to different screen sizes) in HTML?</p>
-    <div class="options">
-        <input type="radio" name="q68" value="A"> A. Set the image width to 100%<br>
-        <input type="radio" name="q68" value="B"> B. Use the <code>max-width</code> CSS property<br>
-        <input type="radio" name="q68" value="C"> C. Both A and B<br>
-        <input type="radio" name="q68" value="D"> D. Use the <code>responsive</code> tag<br>
-    </div>
-</div>
-<!-- Example: -->
-<p>To make an image responsive, set its width to 100% and use the <code>max-width</code> property:</p>
-<pre>
-<style>
-  img {
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-  }
-</style>
-<img src="image.jpg" alt="Responsive Image">
-</pre>
-
-<!-- Question 69 -->
-<div class="question">
-    <p>69. Which HTML5 feature allows you to store data on the user's computer to be accessed later?</p>
-    <div class="options">
-        <input type="radio" name="q69" value="A"> A. Local Storage<br>
-        <input type="radio" name="q69" value="B"> B. Cookies<br>
-        <input type="radio" name="q69" value="C"> C. Cache<br>
-        <input type="radio" name="q69" value="D"> D. Session Storage<br>
-    </div>
-</div>
-<!-- Example: -->
-<p>HTML5's <code>localStorage</code> allows you to store data locally on the user's browser:</p>
-<pre>
-localStorage.setItem("username", "JohnDoe");
-let user = localStorage.getItem("username");
-console.log(user); // Output: JohnDoe
-</pre>
-
-<!-- Question 70 -->
-<div class="question">
-    <p>70. How can you make a webpage that requires a user to sign in to view the content using HTML?</p>
-    <div class="options">
-        <input type="radio" name="q70" value="A"> A. Use the <code>&lt;form&gt;</code> tag with an input field for username and password<br>
-        <input type="radio" name="q70" value="B"> B. Use JavaScript to display a login modal<br>
-        <input type="radio" name="q70" value="C"> C. Use an external authentication service<br>
-        <input type="radio" name="q70" value="D"> D. Both A and B<br>
-    </div>
-</div>
-<!-- Example: -->
-<p>Here’s an example of a simple login form using the <code>&lt;form&gt;</code> tag:</p>
-<pre>
-<form action="/submit" method="post">
-  <label for="username">Username:</label><br>
-  <input type="text" id="username" name="username"><br><br>
-  <label for="password">Password:</label><br>
-  <input type="password" id="password" name="password"><br><br>
-  <input type="submit" value="Submit">
-</form>
-</pre>
- 
-<!-- Question 71 -->
-<div class="question">
-    <p>71. How can you add an external CSS file to an HTML document?</p>
-    <div class="options">
-        <input type="radio" name="q71" value="A"> A. &lt;link rel="stylesheet" href="style.css"&gt;<br>
-        <input type="radio" name="q71" value="B"> B. &lt;style src="style.css"&gt;<br>
-        <input type="radio" name="q71" value="C"> C. &lt;css href="style.css"&gt;<br>
-        <input type="radio" name="q71" value="D"> D. &lt;import="style.css"&gt;<br>
-    </div>
-</div>
-<!-- Example: -->
-<p>To add an external CSS file, you use the <code>&lt;link&gt;</code> tag in the <code>&lt;head&gt;</code> section:</p>
-<pre>
-<head>
-  <link rel="stylesheet" href="style.css">
-</head>
-</pre>
-
-<!-- Question 72 -->
-<div class="question">
-    <p>72. How can you create a table with a border in HTML?</p>
-    <div class="options">
-        <input type="radio" name="q72" value="A"> A. &lt;table border="1"&gt;<br>
-        <input type="radio" name="q72" value="B"> B. &lt;table style="border: 1px solid black"&gt;<br>
-        <input type="radio" name="q72" value="C"> C. &lt;table border="solid"&gt;<br>
-        <input type="radio" name="q72" value="D"> D. A and B<br>
-    </div>
-</div>
-<!-- Example: -->
-<p>You can add a border to a table either through the <code>border</code> attribute or using inline CSS:</p>
-<pre>
-<table border="1">
-  <tr>
-    <th>Name</th>
-    <th>Age</th>
-  </tr>
-  <tr>
-    <td>John</td>
-    <td>25</td>
-  </tr>
-</table>
-</pre>
-
-<!-- Question 73 -->
-<div class="question">
-    <p>73. What is the purpose of the <code>&lt;meta&gt;</code> tag in HTML?</p>
-    <div class="options">
-        <input type="radio" name="q73" value="A"> A. To define metadata about the HTML document<br>
-        <input type="radio" name="q73" value="B"> B. To define external JavaScript files<br>
-        <input type="radio" name="q73" value="C"> C. To display images<br>
-        <input type="radio" name="q73" value="D"> D. To display the document title<br>
-    </div>
-</div>
-<!-- Example: -->
-<p>The <code>&lt;meta&gt;</code> tag is used for metadata such as the description, keywords, or the author:</p>
-<pre>
-<head>
-  <meta name="description" content="This is a webpage about HTML basics.">
-  <meta charset="UTF-8">
-</head>
-</pre>
-
-<!-- Question 74 -->
-<div class="question">
-    <p>74. Which of the following tags can be used to group together multiple form elements?</p>
-    <div class="options">
-        <input type="radio" name="q74" value="A"> A. &lt;form&gt;<br>
-        <input type="radio" name="q74" value="B"> B. &lt;fieldset&gt;<br>
-        <input type="radio" name="q74" value="C"> C. &lt;group&gt;<br>
-        <input type="radio" name="q74" value="D"> D. &lt;div&gt;<br>
-    </div>
-</div>
-<!-- Example: -->
-<p>The <code>&lt;fieldset&gt;</code> tag is used to group form elements together. It is often used with the <code>&lt;legend&gt;</code> tag to provide a title:</p>
-<pre>
-<form>
-  <fieldset>
-    <legend>Personal Information</legend>
-    Name: <input type="text"><br>
-    Age: <input type="text"><br>
-  </fieldset>
-</form>
-</pre>
-
-<!-- Question 75 -->
-<div class="question">
-    <p>75. How do you add a favicon (small icon) to a webpage?</p>
-    <div class="options">
-        <input type="radio" name="q75" value="A"> A. &lt;link rel="icon" href="favicon.ico"&gt;<br>
-        <input type="radio" name="q75" value="B"> B. &lt;favicon&gt;&lt;/favicon&gt;<br>
-        <input type="radio" name="q75" value="C"> C. &lt;meta name="favicon" content="favicon.ico"&gt;<br>
-        <input type="radio" name="q75" value="D"> D. &lt;icon href="favicon.ico"&gt;<br>
-    </div>
-</div>
-<!-- Example: -->
-<p>To add a favicon, you use the <code>&lt;link&gt;</code> tag within the <code>&lt;head&gt;</code> section:</p>
-<pre>
-<head>
-  <link rel="icon" href="favicon.ico" type="image/x-icon">
-</head>
-</pre>
-
-<!-- Question 76 -->
-<div class="question">
-    <p>76. How can you create an HTML table with cells that span multiple rows and columns?</p>
-    <div class="options">
-        <input type="radio" name="q76" value="A"> A. Using the <code>rowspan</code> and <code>colspan</code> attributes<br>
-        <input type="radio" name="q76" value="B"> B. Using CSS <code>display: table</code><br>
-        <input type="radio" name="q76" value="C"> C. Using <code>td</code> tag with <code>span</code> attribute<br>
-        <input type="radio" name="q76" value="D"> D. Using JavaScript<br>
-    </div>
-</div>
-<!-- Example: -->
-<p>To span multiple rows and columns in a table, use the <code>rowspan</code> and <code>colspan</code> attributes:</p>
-<pre>
-<table border="1">
-  <tr>
-    <td rowspan="2">Rowspan</td>
-    <td colspan="2">Colspan</td>
-  </tr>
-  <tr>
-    <td>Cell 1</td>
-    <td>Cell 2</td>
-  </tr>
-</table>
-</pre>
-
-<!-- Question 77 -->
-<div class="question">
-    <p>77. Which of the following attributes is used to specify the target for a link?</p>
-    <div class="options">
-        <input type="radio" name="q77" value="A"> A. target<br>
-        <input type="radio" name="q77" value="B"> B. link-target<br>
-        <input type="radio" name="q77" value="C"> C. href-target<br>
-        <input type="radio" name="q77" value="D"> D. open-in<br>
-    </div>
-</div>
-<!-- Example: -->
-<p>The <code>target</code> attribute specifies where to open the linked document. For example, use <code>_blank</code> to open the link in a new tab:</p>
-<pre>
-<a href="https://example.com" target="_blank">Open in new tab</a>
-</pre>
-
-<!-- Question 78 -->
-<div class="question">
-    <p>78. What does the <code>&lt;canvas&gt;</code> tag do in HTML5?</p>
-    <div class="options">
-        <input type="radio" name="q78" value="A"> A. It is used to draw graphics via JavaScript<br>
-        <input type="radio" name="q78" value="B"> B. It displays images<br>
-        <input type="radio" name="q78" value="C"> C. It defines a drawing space for text<br>
-        <input type="radio" name="q78" value="D"> D. It creates a video player<br>
-    </div>
-</div>
-<!-- Example: -->
-<p>The <code>&lt;canvas&gt;</code> element allows you to draw graphics using JavaScript:</p>
-<pre>
-<canvas id="myCanvas" width="200" height="100"></canvas>
-<script>
-  var ctx = document.getElementById('myCanvas').getContext('2d');
-  ctx.fillStyle = "blue";
-  ctx.fillRect(20, 20, 150, 50);
-</script>
-</pre>
-  
-<!-- Question 79 -->
-<div class="question">
-    <p>79. What tag is used to display a line break in HTML?</p>
-    <div class="options">
-        <input type="radio" name="q79" value="A"> A. &lt;br&gt;<br>
-        <input type="radio" name="q79" value="B"> B. &lt;break&gt;<br>
-        <input type="radio" name="q79" value="C"> C. &lt;lb&gt;<br>
-        <input type="radio" name="q79" value="D"> D. &lt;linebreak&gt;<br>
-    </div>
-</div>
-<!-- Example: -->
-<p>The <code>&lt;br&gt;</code> tag is used to insert a line break:</p>
-<pre>
-<p>This is some text.<br>And here is the next line.</p>
-</pre>
-
-<!-- Question 80 -->
-<div class="question">
-    <p>80. What does the <code>&lt;p&gt;</code> tag represent in HTML?</p>
-    <div class="options">
-        <input type="radio" name="q80" value="A"> A. A paragraph<br>
-        <input type="radio" name="q80" value="B"> B. A picture<br>
-        <input type="radio" name="q80" value="C"> C. A page<br>
-        <input type="radio" name="q80" value="D"> D. A part<br>
-    </div>
-</div>
-<!-- Example: -->
-<p>The <code>&lt;p&gt;</code> tag is used to define a paragraph:</p>
-<pre>
-<p>This is a paragraph of text.</p>
-</pre>
-
-<!-- Question 81 -->
-<div class="question">
-    <p>81. Which tag is used to create a hyperlink in HTML?</p>
-    <div class="options">
-        <input type="radio" name="q81" value="A"> A. &lt;link&gt;<br>
-        <input type="radio" name="q81" value="B"> B. &lt;a&gt;<br>
-        <input type="radio" name="q81" value="C"> C. &lt;href&gt;<br>
-        <input type="radio" name="q81" value="D"> D. &lt;hyperlink&gt;<br>
-    </div>
-</div>
-<!-- Example: -->
-<p>The <code>&lt;a&gt;</code> tag is used to create hyperlinks:</p>
-<pre>
-<a href="https://www.example.com">Click here to visit Example</a>
-</pre>
-
-<!-- Question 82 -->
-<div class="question">
-    <p>82. How do you add an image in HTML?</p>
-    <div class="options">
-        <input type="radio" name="q82" value="A"> A. &lt;img src="image.jpg"&gt;<br>
-        <input type="radio" name="q82" value="B"> B. &lt;image src="image.jpg"&gt;<br>
-        <input type="radio" name="q82" value="C"> C. &lt;img href="image.jpg"&gt;<br>
-        <input type="radio" name="q82" value="D"> D. &lt;picture src="image.jpg"&gt;<br>
-    </div>
-</div>
-<!-- Example: -->
-<p>The <code>&lt;img&gt;</code> tag is used to add images to a webpage:</p>
-<pre>
-<img src="image.jpg" alt="Description of image">
-</pre>
-
-<!-- Question 83 -->
-<div class="question">
-    <p>83. Which tag is used to define a list of items in HTML?</p>
-    <div class="options">
-        <input type="radio" name="q83" value="A"> A. &lt;list&gt;<br>
-        <input type="radio" name="q83" value="B"> B. &lt;ul&gt;<br>
-        <input type="radio" name="q83" value="C"> C. &lt;ol&gt;<br>
-        <input type="radio" name="q83" value="D"> D. Both B and C<br>
-    </div>
-</div>
-<!-- Example: -->
-<p>There are two types of lists in HTML: ordered list (<code>&lt;ol&gt;</code>) and unordered list (<code>&lt;ul&gt;</code>):</p>
-<pre>
-<ul>
-  <li>Item 1</li>
-  <li>Item 2</li>
-</ul>
-</pre>
-
-<!-- Question 84 -->
-<div class="question">
-    <p>84. What does the <code>&lt;h1&gt;</code> tag define in HTML?</p>
-    <div class="options">
-        <input type="radio" name="q84" value="A"> A. A heading<br>
-        <input type="radio" name="q84" value="B"> B. A hyperlink<br>
-        <input type="radio" name="q84" value="C"> C. A form<br>
-        <input type="radio" name="q84" value="D"> D. A paragraph<br>
-    </div>
-</div>
-<!-- Example: -->
-<p>The <code>&lt;h1&gt;</code> tag is used to define a top-level heading:</p>
-<pre>
-<h1>This is a Heading</h1>
-</pre>
-
-<!-- Question 85 -->
-<div class="question">
-    <p>85. What does the <code>&lt;strong&gt;</code> tag do in HTML?</p>
-    <div class="options">
-        <input type="radio" name="q85" value="A"> A. Makes the text bold<br>
-        <input type="radio" name="q85" value="B"> B. Underlines the text<br>
-        <input type="radio" name="q85" value="C"> C. Italicizes the text<br>
-        <input type="radio" name="q85" value="D"> D. Changes the text color<br>
-    </div>
-</div>
-<!-- Example: -->
-<p>The <code>&lt;strong&gt;</code> tag is used to make text bold:</p>
-<pre>
-<strong>This text is bold.</strong>
-</pre>
-
-<!-- Question 86 -->
-<div class="question">
-    <p>86. How do you create an unordered list in HTML?</p>
-    <div class="options">
-        <input type="radio" name="q86" value="A"> A. &lt;ul&gt;<br>
-        <input type="radio" name="q86" value="B"> B. &lt;list&gt;<br>
-        <input type="radio" name="q86" value="C"> C. &lt;ol&gt;<br>
-        <input type="radio" name="q86" value="D"> D. &lt;ul-list&gt;<br>
-    </div>
-</div>
-<!-- Example: -->
-<p>The <code>&lt;ul&gt;</code> tag is used to create an unordered list:</p>
-<pre>
-<ul>
-  <li>First item</li>
-  <li>Second item</li>
-</ul>
-</pre>
-
-<!-- Question 87 -->
-<div class="question">
-    <p>87. How do you create an ordered list in HTML?</p>
-    <div class="options">
-        <input type="radio" name="q87" value="A"> A. &lt;ol&gt;<br>
-        <input type="radio" name="q87" value="B"> B. &lt;list&gt;<br>
-        <input type="radio" name="q87" value="C"> C. &lt;ul&gt;<br>
-        <input type="radio" name="q87" value="D"> D. &lt;ordered&gt;<br>
-    </div>
-</div>
-<!-- Example: -->
-<p>The <code>&lt;ol&gt;</code> tag is used to create an ordered (numbered) list:</p>
-<pre>
-<ol>
-  <li>First item</li>
-  <li>Second item</li>
-</ol>
-</pre>
-
-<!-- Question 88 -->
-<div class="question">
-    <p>88. Which tag is used to define a text input field in HTML?</p>
-    <div class="options">
-        <input type="radio" name="q88" value="A"> A. &lt;input&gt;<br>
-        <input type="radio" name="q88" value="B"> B. &lt;text&gt;<br>
-        <input type="radio" name="q88" value="C"> C. &lt;inputText&gt;<br>
-        <input type="radio" name="q88" value="D"> D. &lt;textfield&gt;<br>
-    </div>
-</div>
-<!-- Example: -->
-<p>The <code>&lt;input&gt;</code> tag is used to define a text input field:</p>
-<pre>
-<form>
-  <input type="text" placeholder="Enter your name">
-</form>
-</pre>
-<!-- Question 89 -->
-<div class="question">
-    <p>89. Which attribute is used to specify the source of an image in HTML?</p>
-    <div class="options">
-        <input type="radio" name="q89" value="A"> A. src<br>
-        <input type="radio" name="q89" value="B"> B. href<br>
-        <input type="radio" name="q89" value="C"> C. source<br>
-        <input type="radio" name="q89" value="D"> D. link<br>
-    </div>
-</div>
-<!-- Example: -->
-<p>The <code>src</code> attribute is used to define the source of an image:</p>
-<pre>
-<img src="image.jpg" alt="Image description">
-</pre>
-
-<!-- Question 90 -->
-<div class="question">
-    <p>90. How do you make a number list in HTML?</p>
-    <div class="options">
-        <input type="radio" name="q90" value="A"> A. &lt;ul&gt;<br>
-        <input type="radio" name="q90" value="B"> B. &lt;ol&gt;<br>
-        <input type="radio" name="q90" value="C"> C. &lt;list&gt;<br>
-        <input type="radio" name="q90" value="D"> D. &lt;numberlist&gt;<br>
-    </div>
-</div>
-<!-- Example: -->
-<p>The <code>&lt;ol&gt;</code> tag is used to create a numbered (ordered) list:</p>
-<pre>
-<ol>
-  <li>First item</li>
-  <li>Second item</li>
-</ol>
-</pre>
-
-<!-- Question 91 -->
-<div class="question">
-    <p>91. How do you create a checkbox in HTML?</p>
-    <div class="options">
-        <input type="radio" name="q91" value="A"> A. &lt;input type="checkbox"&gt;<br>
-        <input type="radio" name="q91" value="B"> B. &lt;checkbox&gt;<br>
-        <input type="radio" name="q91" value="C"> C. &lt;input type="check"&gt;<br>
-        <input type="radio" name="q91" value="D"> D. &lt;input type="radio"&gt;<br>
-    </div>
-</div>
-<!-- Example: -->
-<p>The <code>&lt;input type="checkbox"&gt;</code> tag is used to create a checkbox:</p>
-<pre>
-<input type="checkbox" id="check1"> I agree to the terms
-</pre>
-
-<!-- Question 92 -->
-<div class="question">
-    <p>92. What is the purpose of the <code>&lt;footer&gt;</code> tag in HTML?</p>
-    <div class="options">
-        <input type="radio" name="q92" value="A"> A. To define the main content of the page<br>
-        <input type="radio" name="q92" value="B"> B. To create a footer for the webpage<br>
-        <input type="radio" name="q92" value="C"> C. To define a header for the webpage<br>
-        <input type="radio" name="q92" value="D"> D. To add links to the webpage<br>
-    </div>
-</div>
-<!-- Example: -->
-<p>The <code>&lt;footer&gt;</code> tag is used to define the footer section of a webpage:</p>
-<pre>
-<footer>
-  <p>&copy; 2025 Your Website</p>
-</footer>
-</pre>
-
-<!-- Question 93 -->
-<div class="question">
-    <p>93. Which tag is used to create a form in HTML?</p>
-    <div class="options">
-        <input type="radio" name="q93" value="A"> A. &lt;form&gt;<br>
-        <input type="radio" name="q93" value="B"> B. &lt;input&gt;<br>
-        <input type="radio" name="q93" value="C"> C. &lt;button&gt;<br>
-        <input type="radio" name="q93" value="D"> D. &lt;submit&gt;<br>
-    </div>
-</div>
-<!-- Example: -->
-<p>The <code>&lt;form&gt;</code> tag is used to create a form:</p>
-<pre>
-<form action="/submit" method="post">
-  <input type="text" name="username">
-  <input type="submit" value="Submit">
-</form>
-</pre>
-
-<!-- Question 94 -->
-<div class="question">
-    <p>94. How do you create a text area in HTML?</p>
-    <div class="options">
-        <input type="radio" name="q94" value="A"> A. &lt;textarea&gt;<br>
-        <input type="radio" name="q94" value="B"> B. &lt;textfield&gt;<br>
-        <input type="radio" name="q94" value="C"> C. &lt;input type="textarea"&gt;<br>
-        <input type="radio" name="q94" value="D"> D. &lt;textarea field&gt;<br>
-    </div>
-</div>
-<!-- Example: -->
-<p>The <code>&lt;textarea&gt;</code> tag is used to create a multi-line text input:</p>
-<pre>
-<textarea rows="4" cols="50">Enter text here...</textarea>
-</pre>
-
-<!-- Question 95 -->
-<div class="question">
-    <p>95. What is the correct HTML tag to display the largest heading?</p>
-    <div class="options">
-        <input type="radio" name="q95" value="A"> A. &lt;h1&gt;<br>
-        <input type="radio" name="q95" value="B"> B. &lt;h2&gt;<br>
-        <input type="radio" name="q95" value="C"> C. &lt;h3&gt;<br>
-        <input type="radio" name="q95" value="D"> D. &lt;h6&gt;<br>
-    </div>
-</div>
-<!-- Example: -->
-<p>The <code>&lt;h1&gt;</code> tag is used to define the largest heading:</p>
-<pre>
-<h1>This is the largest heading</h1>
-</pre>
-
-<!-- Question 96 -->
-<div class="question">
-    <p>96. What is the <code>&lt;title&gt;</code> tag used for in HTML?</p>
-    <div class="options">
-        <input type="radio" name="q96" value="A"> A. To define the page's title in the browser tab<br>
-        <input type="radio" name="q96" value="B"> B. To add a title to the page<br>
-        <input type="radio" name="q96" value="C"> C. To create a heading<br>
-        <input type="radio" name="q96" value="D"> D. To display the page name<br>
-    </div>
-</div>
-<!-- Example: -->
-<p>The <code>&lt;title&gt;</code> tag is used to specify the title of the webpage, which appears in the browser tab:</p>
-<pre>
-<head>
-  <title>My Webpage</title>
-</head>
-</pre>
-
-<!-- Question 97 -->
-<div class="question">
-    <p>97. How do you make a text bold in HTML?</p>
-    <div class="options">
-        <input type="radio" name="q97" value="A"> A. &lt;strong&gt;<br>
-        <input type="radio" name="q97" value="B"> B. &lt;b&gt;<br>
-        <input type="radio" name="q97" value="C"> C. &lt;bold&gt;<br>
-        <input type="radio" name="q97" value="D"> D. Both A and B<br>
-    </div>
-</div>
-<!-- Example: -->
-<p>The <code>&lt;strong&gt;</code> tag or <code>&lt;b&gt;</code> tag can be used to make text bold:</p>
-<pre>
-<strong>This text is bold</strong>
-</pre>
-
-<!-- Question 98 -->
-<div class="question">
-    <p>98. How do you add a comment in HTML?</p>
-    <div class="options">
-        <input type="radio" name="q98" value="A"> A. <!-- This is a comment --><br>
-        <input type="radio" name="q98" value="B"> B. /* This is a comment */<br>
-        <input type="radio" name="q98" value="C"> C. // This is a comment<br>
-        <input type="radio" name="q98" value="D"> D. ** This is a comment **<br>
-    </div>
-</div>
-<!-- Example: -->
-<p>The correct syntax for an HTML comment is:</p>
-<pre>
-<!-- This is a comment -->
-</pre>
-
-<!-- Question 99 -->
-<div class="question">
-    <p>99. What tag is used to define a division or section in HTML?</p>
-    <div class="options">
-        <input type="radio" name="q99" value="A"> A. &lt;div&gt;<br>
-        <input type="radio" name="q99" value="B"> B. &lt;section&gt;<br>
-        <input type="radio" name="q99" value="C"> C. &lt;group&gt;<br>
-        <input type="radio" name="q99" value="D"> D. Both A and B<br>
-    </div>
-</div>
-<!-- Example: -->
-
-
-
-
-        
-        
-
-        <!-- More questions can be added similarly -->
-
-        <button type="button" onclick="submitQuiz()">Submit</button>
+    <!-- Example: -->
+    <p>To allow multiple selection in a dropdown list, use the <code>multiple</code> attribute:</p>
+    <pre>
+    <form>
+      <label for="colors">Choose your favorite colors:</label><br>
+      <select id="colors" name="colors" multiple size="4">
+        <option value="red">Red</option>
+        <option value="green">Green</option>
+        <option value="blue">Blue</option>
+        <option value="yellow">Yellow</option>
+      </select>
     </form>
-
-    <div id="results"></div>
+    </pre>
+    
+    <!-- Question 67 -->
+    <div class="question">
+        <p>67. Which of the following is the correct syntax for embedding a video in HTML5?</p>
+        <div class="options">
+            <input type="radio" name="q67" value="A"> A. &lt;video src="movie.mp4"&gt;<br>
+            <input type="radio" name="q67" value="B"> B. &lt;video src="movie.mp4" controls&gt;<br>
+            <input type="radio" name="q67" value="C"> C. &lt;embed src="movie.mp4"&gt;<br>
+            <input type="radio" name="q67" value="D"> D. &lt;movie src="movie.mp4"&gt;<br>
+        </div>
+    </div>
+    <!-- Example: -->
+    <p>HTML5 introduces the <code>&lt;video&gt;</code> element, which allows you to embed videos:</p>
+    <pre>
+    <video width="320" height="240" controls>
+      <source src="movie.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    </pre>
+    
+    <!-- Question 68 -->
+    <div class="question">
+        <p>68. How can you make an image responsive (adjust to different screen sizes) in HTML?</p>
+        <div class="options">
+            <input type="radio" name="q68" value="A"> A. Set the image width to 100%<br>
+            <input type="radio" name="q68" value="B"> B. Use the <code>max-width</code> CSS property<br>
+            <input type="radio" name="q68" value="C"> C. Both A and B<br>
+            <input type="radio" name="q68" value="D"> D. Use the <code>responsive</code> tag<br>
+        </div>
+    </div>
+    <!-- Example: -->
+    <p>To make an image responsive, set its width to 100% and use the <code>max-width</code> property:</p>
+    <pre>
+    <style>
+      img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+      }
+    </style>
+    <img src="image.jpg" alt="Responsive Image">
+    </pre>
+    
+    <!-- Question 69 -->
+    <div class="question">
+        <p>69. Which HTML5 feature allows you to store data on the user's computer to be accessed later?</p>
+        <div class="options">
+            <input type="radio" name="q69" value="A"> A. Local Storage<br>
+            <input type="radio" name="q69" value="B"> B. Cookies<br>
+            <input type="radio" name="q69" value="C"> C. Cache<br>
+            <input type="radio" name="q69" value="D"> D. Session Storage<br>
+        </div>
+    </div>
+    <!-- Example: -->
+    <p>HTML5's <code>localStorage</code> allows you to store data locally on the user's browser:</p>
+    <pre>
+    localStorage.setItem("username", "JohnDoe");
+    let user = localStorage.getItem("username");
+    console.log(user); // Output: JohnDoe
+    </pre>
+    
+    <!-- Question 70 -->
+    <div class="question">
+        <p>70. How can you make a webpage that requires a user to sign in to view the content using HTML?</p>
+        <div class="options">
+            <input type="radio" name="q70" value="A"> A. Use the <code>&lt;form&gt;</code> tag with an input field for username and password<br>
+            <input type="radio" name="q70" value="B"> B. Use JavaScript to display a login modal<br>
+            <input type="radio" name="q70" value="C"> C. Use an external authentication service<br>
+            <input type="radio" name="q70" value="D"> D. Both A and B<br>
+        </div>
+    </div>
+    <!-- Example: -->
+    <p>Here’s an example of a simple login form using the <code>&lt;form&gt;</code> tag:</p>
+    <pre>
+    <form action="/submit" method="post">
+      <label for="username">Username:</label><br>
+      <input type="text" id="username" name="username"><br><br>
+      <label for="password">Password:</label><br>
+      <input type="password" id="password" name="password"><br><br>
+      <input type="submit" value="Submit">
+    </form>
+    </pre>
+     
+    <!-- Question 71 -->
+    <div class="question">
+        <p>71. How can you add an external CSS file to an HTML document?</p>
+        <div class="options">
+            <input type="radio" name="q71" value="A"> A. &lt;link rel="stylesheet" href="style.css"&gt;<br>
+            <input type="radio" name="q71" value="B"> B. &lt;style src="style.css"&gt;<br>
+            <input type="radio" name="q71" value="C"> C. &lt;css href="style.css"&gt;<br>
+            <input type="radio" name="q71" value="D"> D. &lt;import="style.css"&gt;<br>
+        </div>
+    </div>
+    <!-- Example: -->
+    <p>To add an external CSS file, you use the <code>&lt;link&gt;</code> tag in the <code>&lt;head&gt;</code> section:</p>
+    <pre>
+    <head>
+      <link rel="stylesheet" href="style.css">
+    </head>
+    </pre>
+    
+    <!-- Question 72 -->
+    <div class="question">
+        <p>72. How can you create a table with a border in HTML?</p>
+        <div class="options">
+            <input type="radio" name="q72" value="A"> A. &lt;table border="1"&gt;<br>
+            <input type="radio" name="q72" value="B"> B. &lt;table style="border: 1px solid black"&gt;<br>
+            <input type="radio" name="q72" value="C"> C. &lt;table border="solid"&gt;<br>
+            <input type="radio" name="q72" value="D"> D. A and B<br>
+        </div>
+    </div>
+    <!-- Example: -->
+    <p>You can add a border to a table either through the <code>border</code> attribute or using inline CSS:</p>
+    <pre>
+    <table border="1">
+      <tr>
+        <th>Name</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>John</td>
+        <td>25</td>
+      </tr>
+    </table>
+    </pre>
+    
+    <!-- Question 73 -->
+    <div class="question">
+        <p>73. What is the purpose of the <code>&lt;meta&gt;</code> tag in HTML?</p>
+        <div class="options">
+            <input type="radio" name="q73" value="A"> A. To define metadata about the HTML document<br>
+            <input type="radio" name="q73" value="B"> B. To define external JavaScript files<br>
+            <input type="radio" name="q73" value="C"> C. To display images<br>
+            <input type="radio" name="q73" value="D"> D. To display the document title<br>
+        </div>
+    </div>
+    <!-- Example: -->
+    <p>The <code>&lt;meta&gt;</code> tag is used for metadata such as the description, keywords, or the author:</p>
+    <pre>
+    <head>
+      <meta name="description" content="This is a webpage about HTML basics.">
+      <meta charset="UTF-8">
+    </head>
+    </pre>
+    
+    <!-- Question 74 -->
+    <div class="question">
+        <p>74. Which of the following tags can be used to group together multiple form elements?</p>
+        <div class="options">
+            <input type="radio" name="q74" value="A"> A. &lt;form&gt;<br>
+            <input type="radio" name="q74" value="B"> B. &lt;fieldset&gt;<br>
+            <input type="radio" name="q74" value="C"> C. &lt;group&gt;<br>
+            <input type="radio" name="q74" value="D"> D. &lt;div&gt;<br>
+        </div>
+    </div>
+    <!-- Example: -->
+    <p>The <code>&lt;fieldset&gt;</code> tag is used to group form elements together. It is often used with the <code>&lt;legend&gt;</code> tag to provide a title:</p>
+    <pre>
+    <form>
+      <fieldset>
+        <legend>Personal Information</legend>
+        Name: <input type="text"><br>
+        Age: <input type="text"><br>
+      </fieldset>
+    </form>
+    </pre>
+    
+    <!-- Question 75 -->
+    <div class="question">
+        <p>75. How do you add a favicon (small icon) to a webpage?</p>
+        <div class="options">
+            <input type="radio" name="q75" value="A"> A. &lt;link rel="icon" href="favicon.ico"&gt;<br>
+            <input type="radio" name="q75" value="B"> B. &lt;favicon&gt;&lt;/favicon&gt;<br>
+            <input type="radio" name="q75" value="C"> C. &lt;meta name="favicon" content="favicon.ico"&gt;<br>
+            <input type="radio" name="q75" value="D"> D. &lt;icon href="favicon.ico"&gt;<br>
+        </div>
+    </div>
+    <!-- Example: -->
+    <p>To add a favicon, you use the <code>&lt;link&gt;</code> tag within the <code>&lt;head&gt;</code> section:</p>
+    <pre>
+    <head>
+      <link rel="icon" href="favicon.ico" type="image/x-icon">
+    </head>
+    </pre>
+    
+    <!-- Question 76 -->
+    <div class="question">
+        <p>76. How can you create an HTML table with cells that span multiple rows and columns?</p>
+        <div class="options">
+            <input type="radio" name="q76" value="A"> A. Using the <code>rowspan</code> and <code>colspan</code> attributes<br>
+            <input type="radio" name="q76" value="B"> B. Using CSS <code>display: table</code><br>
+            <input type="radio" name="q76" value="C"> C. Using <code>td</code> tag with <code>span</code> attribute<br>
+            <input type="radio" name="q76" value="D"> D. Using JavaScript<br>
+        </div>
+    </div>
+    <!-- Example: -->
+    <p>To span multiple rows and columns in a table, use the <code>rowspan</code> and <code>colspan</code> attributes:</p>
+    <pre>
+    <table border="1">
+      <tr>
+        <td rowspan="2">Rowspan</td>
+        <td colspan="2">Colspan</td>
+      </tr>
+      <tr>
+        <td>Cell 1</td>
+        <td>Cell 2</td>
+      </tr>
+    </table>
+    </pre>
+    
+    <!-- Question 77 -->
+    <div class="question">
+        <p>77. Which of the following attributes is used to specify the target for a link?</p>
+        <div class="options">
+            <input type="radio" name="q77" value="A"> A. target<br>
+            <input type="radio" name="q77" value="B"> B. link-target<br>
+            <input type="radio" name="q77" value="C"> C. href-target<br>
+            <input type="radio" name="q77" value="D"> D. open-in<br>
+        </div>
+    </div>
+    <!-- Example: -->
+    <p>The <code>target</code> attribute specifies where to open the linked document. For example, use <code>_blank</code> to open the link in a new tab:</p>
+    <pre>
+    <a href="https://example.com" target="_blank">Open in new tab</a>
+    </pre>
+    
+    <!-- Question 78 -->
+    <div class="question">
+        <p>78. What does the <code>&lt;canvas&gt;</code> tag do in HTML5?</p>
+        <div class="options">
+            <input type="radio" name="q78" value="A"> A. It is used to draw graphics via JavaScript<br>
+            <input type="radio" name="q78" value="B"> B. It displays images<br>
+            <input type="radio" name="q78" value="C"> C. It defines a drawing space for text<br>
+            <input type="radio" name="q78" value="D"> D. It creates a video player<br>
+        </div>
+    </div>
+    <!-- Example: -->
+    <p>The <code>&lt;canvas&gt;</code> element allows you to draw graphics using JavaScript:</p>
+    <pre>
+    <canvas id="myCanvas" width="200" height="100"></canvas>
+    <script>
+      var ctx = document.getElementById('myCanvas').getContext('2d');
+      ctx.fillStyle = "blue";
+      ctx.fillRect(20, 20, 150, 50);
+    </script>
+    </pre>
+      
+    <!-- Question 79 -->
+    <div class="question">
+        <p>79. What tag is used to display a line break in HTML?</p>
+        <div class="options">
+            <input type="radio" name="q79" value="A"> A. &lt;br&gt;<br>
+            <input type="radio" name="q79" value="B"> B. &lt;break&gt;<br>
+            <input type="radio" name="q79" value="C"> C. &lt;lb&gt;<br>
+            <input type="radio" name="q79" value="D"> D. &lt;linebreak&gt;<br>
+        </div>
+    </div>
+    <!-- Example: -->
+    <p>The <code>&lt;br&gt;</code> tag is used to insert a line break:</p>
+    <pre>
+    <p>This is some text.<br>And here is the next line.</p>
+    </pre>
+    
+    <!-- Question 80 -->
+    <div class="question">
+        <p>80. What does the <code>&lt;p&gt;</code> tag represent in HTML?</p>
+        <div class="options">
+            <input type="radio" name="q80" value="A"> A. A paragraph<br>
+            <input type="radio" name="q80" value="B"> B. A picture<br>
+            <input type="radio" name="q80" value="C"> C. A page<br>
+            <input type="radio" name="q80" value="D"> D. A part<br>
+        </div>
+    </div>
+    <!-- Example: -->
+    <p>The <code>&lt;p&gt;</code> tag is used to define a paragraph:</p>
+    <pre>
+    <p>This is a paragraph of text.</p>
+    </pre>
+    
+    <!-- Question 81 -->
+    <div class="question">
+        <p>81. Which tag is used to create a hyperlink in HTML?</p>
+        <div class="options">
+            <input type="radio" name="q81" value="A"> A. &lt;link&gt;<br>
+            <input type="radio" name="q81" value="B"> B. &lt;a&gt;<br>
+            <input type="radio" name="q81" value="C"> C. &lt;href&gt;<br>
+            <input type="radio" name="q81" value="D"> D. &lt;hyperlink&gt;<br>
+        </div>
+    </div>
+    <!-- Example: -->
+    <p>The <code>&lt;a&gt;</code> tag is used to create hyperlinks:</p>
+    <pre>
+    <a href="https://www.example.com">Click here to visit Example</a>
+    </pre>
+    
+    <!-- Question 82 -->
+    <div class="question">
+        <p>82. How do you add an image in HTML?</p>
+        <div class="options">
+            <input type="radio" name="q82" value="A"> A. &lt;img src="image.jpg"&gt;<br>
+            <input type="radio" name="q82" value="B"> B. &lt;image src="image.jpg"&gt;<br>
+            <input type="radio" name="q82" value="C"> C. &lt;img href="image.jpg"&gt;<br>
+            <input type="radio" name="q82" value="D"> D. &lt;picture src="image.jpg"&gt;<br>
+        </div>
+    </div>
+    <!-- Example: -->
+    <p>The <code>&lt;img&gt;</code> tag is used to add images to a webpage:</p>
+    <pre>
+    <img src="image.jpg" alt="Description of image">
+    </pre>
+    
+    <!-- Question 83 -->
+    <div class="question">
+        <p>83. Which tag is used to define a list of items in HTML?</p>
+        <div class="options">
+            <input type="radio" name="q83" value="A"> A. &lt;list&gt;<br>
+            <input type="radio" name="q83" value="B"> B. &lt;ul&gt;<br>
+            <input type="radio" name="q83" value="C"> C. &lt;ol&gt;<br>
+            <input type="radio" name="q83" value="D"> D. Both B and C<br>
+        </div>
+    </div>
+    <!-- Example: -->
+    <p>There are two types of lists in HTML: ordered list (<code>&lt;ol&gt;</code>) and unordered list (<code>&lt;ul&gt;</code>):</p>
+    <pre>
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+    </ul>
+    </pre>
+    
+    <!-- Question 84 -->
+    <div class="question">
+        <p>84. What does the <code>&lt;h1&gt;</code> tag define in HTML?</p>
+        <div class="options">
+            <input type="radio" name="q84" value="A"> A. A heading<br>
+            <input type="radio" name="q84" value="B"> B. A hyperlink<br>
+            <input type="radio" name="q84" value="C"> C. A form<br>
+            <input type="radio" name="q84" value="D"> D. A paragraph<br>
+        </div>
+    </div>
+    <!-- Example: -->
+    <p>The <code>&lt;h1&gt;</code> tag is used to define a top-level heading:</p>
+    <pre>
+    <h1>This is a Heading</h1>
+    </pre>
+    
+    <!-- Question 85 -->
+    <div class="question">
+        <p>85. What does the <code>&lt;strong&gt;</code> tag do in HTML?</p>
+        <div class="options">
+            <input type="radio" name="q85" value="A"> A. Makes the text bold<br>
+            <input type="radio" name="q85" value="B"> B. Underlines the text<br>
+            <input type="radio" name="q85" value="C"> C. Italicizes the text<br>
+            <input type="radio" name="q85" value="D"> D. Changes the text color<br>
+        </div>
+    </div>
+    <!-- Example: -->
+    <p>The <code>&lt;strong&gt;</code> tag is used to make text bold:</p>
+    <pre>
+    <strong>This text is bold.</strong>
+    </pre>
+    
+    <!-- Question 86 -->
+    <div class="question">
+        <p>86. How do you create an unordered list in HTML?</p>
+        <div class="options">
+            <input type="radio" name="q86" value="A"> A. &lt;ul&gt;<br>
+            <input type="radio" name="q86" value="B"> B. &lt;list&gt;<br>
+            <input type="radio" name="q86" value="C"> C. &lt;ol&gt;<br>
+            <input type="radio" name="q86" value="D"> D. &lt;ul-list&gt;<br>
+        </div>
+    </div>
+    <!-- Example: -->
+    <p>The <code>&lt;ul&gt;</code> tag is used to create an unordered list:</p>
+    <pre>
+    <ul>
+      <li>First item</li>
+      <li>Second item</li>
+    </ul>
+    </pre>
+    
+    <!-- Question 87 -->
+    <div class="question">
+        <p>87. How do you create an ordered list in HTML?</p>
+        <div class="options">
+            <input type="radio" name="q87" value="A"> A. &lt;ol&gt;<br>
+            <input type="radio" name="q87" value="B"> B. &lt;list&gt;<br>
+            <input type="radio" name="q87" value="C"> C. &lt;ul&gt;<br>
+            <input type="radio" name="q87" value="D"> D. &lt;ordered&gt;<br>
+        </div>
+    </div>
+    <!-- Example: -->
+    <p>The <code>&lt;ol&gt;</code> tag is used to create an ordered (numbered) list:</p>
+    <pre>
+    <ol>
+      <li>First item</li>
+      <li>Second item</li>
+    </ol>
+    </pre>
+    
+    <!-- Question 88 -->
+    <div class="question">
+        <p>88. Which tag is used to define a text input field in HTML?</p>
+        <div class="options">
+            <input type="radio" name="q88" value="A"> A. &lt;input&gt;<br>
+            <input type="radio" name="q88" value="B"> B. &lt;text&gt;<br>
+            <input type="radio" name="q88" value="C"> C. &lt;inputText&gt;<br>
+            <input type="radio" name="q88" value="D"> D. &lt;textfield&gt;<br>
+        </div>
+    </div>
+    <!-- Example: -->
+    <p>The <code>&lt;input&gt;</code> tag is used to define a text input field:</p>
+    <pre>
+    <form>
+      <input type="text" placeholder="Enter your name">
+    </form>
+    </pre>
+    <!-- Question 89 -->
+    <div class="question">
+        <p>89. Which attribute is used to specify the source of an image in HTML?</p>
+        <div class="options">
+            <input type="radio" name="q89" value="A"> A. src<br>
+            <input type="radio" name="q89" value="B"> B. href<br>
+            <input type="radio" name="q89" value="C"> C. source<br>
+            <input type="radio" name="q89" value="D"> D. link<br>
+        </div>
+    </div>
+    <!-- Example: -->
+    <p>The <code>src</code> attribute is used to define the source of an image:</p>
+    <pre>
+    <img src="image.jpg" alt="Image description">
+    </pre>
+    
+    <!-- Question 90 -->
+    <div class="question">
+        <p>90. How do you make a number list in HTML?</p>
+        <div class="options">
+            <input type="radio" name="q90" value="A"> A. &lt;ul&gt;<br>
+            <input type="radio" name="q90" value="B"> B. &lt;ol&gt;<br>
+            <input type="radio" name="q90" value="C"> C. &lt;list&gt;<br>
+            <input type="radio" name="q90" value="D"> D. &lt;numberlist&gt;<br>
+        </div>
+    </div>
+    <!-- Example: -->
+    <p>The <code>&lt;ol&gt;</code> tag is used to create a numbered (ordered) list:</p>
+    <pre>
+    <ol>
+      <li>First item</li>
+      <li>Second item</li>
+    </ol>
+    </pre>
+    
+    <!-- Question 91 -->
+    <div class="question">
+        <p>91. How do you create a checkbox in HTML?</p>
+        <div class="options">
+            <input type="radio" name="q91" value="A"> A. &lt;input type="checkbox"&gt;<br>
+            <input type="radio" name="q91" value="B"> B. &lt;checkbox&gt;<br>
+            <input type="radio" name="q91" value="C"> C. &lt;input type="check"&gt;<br>
+            <input type="radio" name="q91" value="D"> D. &lt;input type="radio"&gt;<br>
+        </div>
+    </div>
+    <!-- Example: -->
+    <p>The <code>&lt;input type="checkbox"&gt;</code> tag is used to create a checkbox:</p>
+    <pre>
+    <input type="checkbox" id="check1"> I agree to the terms
+    </pre>
+    
+    <!-- Question 92 -->
+    <div class="question">
+        <p>92. What is the purpose of the <code>&lt;footer&gt;</code> tag in HTML?</p>
+        <div class="options">
+            <input type="radio" name="q92" value="A"> A. To define the main content of the page<br>
+            <input type="radio" name="q92" value="B"> B. To create a footer for the webpage<br>
+            <input type="radio" name="q92" value="C"> C. To define a header for the webpage<br>
+            <input type="radio" name="q92" value="D"> D. To add links to the webpage<br>
+        </div>
+    </div>
+    <!-- Example: -->
+    <p>The <code>&lt;footer&gt;</code> tag is used to define the footer section of a webpage:</p>
+    <pre>
+    <footer>
+      <p>&copy; 2025 Your Website</p>
+    </footer>
+    </pre>
+    
+    <!-- Question 93 -->
+    <div class="question">
+        <p>93. Which tag is used to create a form in HTML?</p>
+        <div class="options">
+            <input type="radio" name="q93" value="A"> A. &lt;form&gt;<br>
+            <input type="radio" name="q93" value="B"> B. &lt;input&gt;<br>
+            <input type="radio" name="q93" value="C"> C. &lt;button&gt;<br>
+            <input type="radio" name="q93" value="D"> D. &lt;submit&gt;<br>
+        </div>
+    </div>
+    <!-- Example: -->
+    <p>The <code>&lt;form&gt;</code> tag is used to create a form:</p>
+    <pre>
+    <form action="/submit" method="post">
+      <input type="text" name="username">
+      <input type="submit" value="Submit">
+    </form>
+    </pre>
+    
+    <!-- Question 94 -->
+    <div class="question">
+        <p>94. How do you create a text area in HTML?</p>
+        <div class="options">
+            <input type="radio" name="q94" value="A"> A. &lt;textarea&gt;<br>
+            <input type="radio" name="q94" value="B"> B. &lt;textfield&gt;<br>
+            <input type="radio" name="q94" value="C"> C. &lt;input type="textarea"&gt;<br>
+            <input type="radio" name="q94" value="D"> D. &lt;textarea field&gt;<br>
+        </div>
+    </div>
+    <!-- Example: -->
+    <p>The <code>&lt;textarea&gt;</code> tag is used to create a multi-line text input:</p>
+    <pre>
+    <textarea rows="4" cols="50">Enter text here...</textarea>
+    </pre>
+    
+    <!-- Question 95 -->
+    <div class="question">
+        <p>95. What is the correct HTML tag to display the largest heading?</p>
+        <div class="options">
+            <input type="radio" name="q95" value="A"> A. &lt;h1&gt;<br>
+            <input type="radio" name="q95" value="B"> B. &lt;h2&gt;<br>
+            <input type="radio" name="q95" value="C"> C. &lt;h3&gt;<br>
+            <input type="radio" name="q95" value="D"> D. &lt;h6&gt;<br>
+        </div>
+    </div>
+    <!-- Example: -->
+    <p>The <code>&lt;h1&gt;</code> tag is used to define the largest heading:</p>
+    <pre>
+    <h1>This is the largest heading</h1>
+    </pre>
+    
+    <!-- Question 96 -->
+    <div class="question">
+        <p>96. What is the <code>&lt;title&gt;</code> tag used for in HTML?</p>
+        <div class="options">
+            <input type="radio" name="q96" value="A"> A. To define the page's title in the browser tab<br>
+            <input type="radio" name="q96" value="B"> B. To add a title to the page<br>
+            <input type="radio" name="q96" value="C"> C. To create a heading<br>
+            <input type="radio" name="q96" value="D"> D. To display the page name<br>
+        </div>
+    </div>
+    <!-- Example: -->
+    <p>The <code>&lt;title&gt;</code> tag is used to specify the title of the webpage, which appears in the browser tab:</p>
+    <pre>
+    <head>
+      <title>My Webpage</title>
+    </head>
+    </pre>
+    
+    <!-- Question 97 -->
+    <div class="question">
+        <p>97. How do you make a text bold in HTML?</p>
+        <div class="options">
+            <input type="radio" name="q97" value="A"> A. &lt;strong&gt;<br>
+            <input type="radio" name="q97" value="B"> B. &lt;b&gt;<br>
+            <input type="radio" name="q97" value="C"> C. &lt;bold&gt;<br>
+            <input type="radio" name="q97" value="D"> D. Both A and B<br>
+        </div>
+    </div>
+    <!-- Example: -->
+    <p>The <code>&lt;strong&gt;</code> tag or <code>&lt;b&gt;</code> tag can be used to make text bold:</p>
+    <pre>
+    <strong>This text is bold</strong>
+    </pre>
+    
+    <!-- Question 98 -->
+    <div class="question">
+        <p>98. How do you add a comment in HTML?</p>
+        <div class="options">
+            <input type="radio" name="q98" value="A"> A. <!-- This is a comment --><br>
+            <input type="radio" name="q98" value="B"> B. /* This is a comment */<br>
+            <input type="radio" name="q98" value="C"> C. // This is a comment<br>
+            <input type="radio" name="q98" value="D"> D. ** This is a comment **<br>
+        </div>
+    </div>
+    <!-- Example: -->
+    <p>The correct syntax for an HTML comment is:</p>
+    <pre>
+    <!-- This is a comment -->
+    </pre>
+    
+    <!-- Question 99 -->
+    <div class="question">
+        <p>99. What tag is used to define a division or section in HTML?</p>
+        <div class="options">
+            <input type="radio" name="q99" value="A"> A. &lt;div&gt;<br>
+            <input type="radio" name="q99" value="B"> B. &lt;section&gt;<br>
+            <input type="radio" name="q99" value="C"> C. &lt;group&gt;<br>
+            <input type="radio" name="q99" value="D"> D. Both A and B<br>
+        </div>
+    </div>
+    <!-- Example: -->
+    
+    
+    
+            
+            
+    
+            <!-- More questions can be added similarly -->
+    
+            <button type="button" onclick="submitQuiz()">Submit</button>
+        </form>
+    
+        <div id="results"></div>
+    
+    
+        
+    </main>
+    
+   
+ <footer style="padding: 20px; background: #000; color: white; width: 100%; height: 100%; text-align: center;">
+    <p>&copy; 2025 Arbaz Ahmed. All Rights Reserved.</p>
+ </footer>
 
     <script>
         function submitQuiz() {
